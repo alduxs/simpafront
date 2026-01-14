@@ -1,0 +1,202 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+/* Media query para tabletas */
+@media (min-width: 992px) {
+  .header-home {
+    height: 50vh;
+    .top-navigation {
+      width: 960px;
+      justify-content: space-evenly;
+      align-items: center;
+      justify-items: center;
+      @include grid(grid, 1fr 5fr 1fr);
+    }
+    .text-slide {
+      width: 960px;
+      .details {
+        margin-left: 0%;
+      }
+    }
+  }
+
+  .header-int {
+    .top-navigation {
+      width: 960px;
+      justify-content: space-evenly;
+      align-items: center;
+      justify-items: center;
+      @include grid(grid, 1fr 5fr 1fr);
+    }
+  }
+
+  .home-empresa {
+    .servicios-contenedor {
+      @include grid(grid, 1fr 3fr 1fr);
+      gap: 10px;
+
+      .servicios-imagen {
+        display: flex;
+        background-image: url("../../assets/img/imagen-servicio-home.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+    }
+  }
+
+  .una-obras {
+    padding: 80px 20px;
+
+    .imagenes {
+      @include grid(grid, 3fr 1fr);
+      align-items: start;
+      .imagen-pincipal {
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .imagen-thumbs {
+        @include grid(grid, 1fr 1fr 1fr);
+        gap: 10px;
+        .imagen-thumb {
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+      }
+    }
+  }
+
+  .reultador {
+    grid-template-areas:
+      "area1 area2 area3 area4 area5 area6";
+    /* Ancho de las columnas */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    /* Altura de las filas */
+    grid-template-rows: repeat(1, auto);
+    align-items: center;
+    .item-property {
+      padding: 25px 10px;
+      border-radius: 30px 0px 0px 30px;
+      i {
+        font-size: 0.95rem;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+
+    .item-nrolote {
+      padding: 25px 10px;
+      font-size: 0.95rem;
+      .number{
+        font-size: 0.95rem;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+      }
+
+    }
+
+    .item-zona {
+      padding: 25px 10px;
+      font-size: 0.95rem;
+      border-left: 1px dashed #ccc;
+      i {
+        font-size: 0.95rem;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+    .item-m2 {
+      padding: 25px 10px;
+      font-size: 0.95rem;
+      border-left: 1px dashed #ccc;
+      i {
+        font-size: 0.95rem;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+    .item-vm2 {
+      text-align: center;
+      padding: 25px 10px;
+      font-size: 0.95rem;
+      i {
+        font-size: 0.95rem;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+    .item-valor {
+      padding: 25px 10px;
+      font-size: 0.95rem;
+      border-left: 1px dashed #ccc;
+      i {
+        font-size: 0.95rem;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+    h2 {
+      font-size: 1.2rem;
+    }
+
+  }
+}
+@media (min-width: 1200px) {
+  .header-home {
+    .top-navigation {
+      width: 1140px;
+      @include grid(grid, 1fr 5fr 1fr);
+    }
+    .text-slide {
+      width: 1140px;
+    }
+  }
+
+  .header-int {
+    .top-navigation {
+      width: 1140px;
+      @include grid(grid, 1fr 5fr 1fr);
+    }
+  }
+
+  .una-obras {
+    .imagenes {
+      .imagen-pincipal {
+        height: 350px;
+      }
+      .imagen-thumbs {
+        @include grid(grid, 1fr 1fr 1fr);
+        gap: 10px;
+        .imagen-thumb {
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .header-home {
+    .top-navigation {
+      width: 1320px;
+      @include grid(grid, 1fr 5fr 1fr);
+    }
+    .header-int {
+      .top-navigation {
+        width: 1320px;
+        @include grid(grid, 1fr 5fr 1fr);
+      }
+    }
+    .text-slide {
+      width: 1320px;
+    }
+  }
+}

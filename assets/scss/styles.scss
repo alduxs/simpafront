@@ -1,0 +1,24 @@
+/* Reset */
+@import 'base/reset';
+/* Tipografía */
+@import 'base/typography';
+/* Variables */
+@import 'abstracts/variables';
+/* Components */
+@import 'components/hamburger';
+@import 'components/agregados';
+/* LAYOUT */
+/* Header */
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+/* PAGINAS */
+/* Home */
+@import 'pages/home';
+@import 'pages/obras';
+/* Madia Query Tablet */
+@import 'pages/mq-tablet';
+@import 'pages/mq-desktop';
+
+
