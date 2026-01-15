@@ -1,81 +1,22 @@
 @import "../abstracts/mixins";
 .header-home {
-  height: 60vh;
-  /*background-image: url("../slides/slide01.jpg");*/
+  height: 100svh;
   background-size: cover;
   background-position: center;
   position: relative;
   justify-items: center;
   display: grid;
   align-content: space-between;
-  
   .top-navigation {
-    background-color: #005953;
+    background-color: $bg-primary-color-tr;
     padding: 20px 20px;
     width: 100%;
     @include grid(grid, 1fr 1fr 1fr);
     position: relative;
     z-index: 2050;
-   
-    
-    
-  }
-  .text-slide {
-    position: absolute;
-    bottom: 0;
-    z-index: 1800;
-    color: $font-tertiary-color;
-    text-align: center;
-    width: 100%;
-    .highligth {
-      font-size: 3.5rem;
-      font-weight: 500;
-      margin-bottom: 0px;
-      text-shadow: 0px 1px 12px rgba(255, 255, 255, 0.9);
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .logo {
+      padding: 5px 0px;
     }
-    .details {
-      background-color: $bg-primary-color;
-      color: #000;
-      width: 80%;
-      padding: 30px;
-      margin-left: 10%;
-    }
-  }
-}
-
-.header-int {
-  height: 500px;
-
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  justify-items: center;
-  display: grid;
-  align-content: space-between;
-  .contenedor-slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .top-navigation {
-    background-color:$bg-white-color;
-    padding: 10px 10px;
-    width: 100%;
-    @include grid(grid, 1fr 1fr 1fr);
-    position: relative;
-    z-index: 2050;
-    
     .menu {
       background-color: $bg-white-color;
       position: fixed;
@@ -95,9 +36,10 @@
           color: $font-primary-color;
           text-decoration: none;
           font-weight: 500;
-          font-size: 1.2rem;
-          margin: 0 15px;
+          font-size: 1rem;
+          margin: 10px 15px;
           text-transform: uppercase;
+          display: inline-block;
           &:hover {
             color: $font-secondary-color;
           }
@@ -107,7 +49,7 @@
     .open-menu {
       right: 0px;
     }
-    .redes-top {
+    .idioma-top {
       ul {
         display: flex;
         /*justify-content: center;*/
@@ -116,8 +58,8 @@
         list-style: none;
         li {
           margin: 0 3px;
-          height: 50px;
-          width: 50px;
+          height: 45px;
+          width: 45px;
           text-align: center;
           background-color: $bg-quinary-color;
           display: flex;
@@ -127,10 +69,49 @@
             color: $font-link-color-grey;
           }
           i {
-            font-size: 30px;
+            font-size: 25px;
           }
         }
       }
+    }
+  }
+  .contenedor-slide {
+    position: relative;
+
+    width: 100%;
+    height: 100svh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-slide {
+    position: absolute;
+    bottom: 0;
+    z-index: 1800;
+    color: $font-tertiary-color;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px 50px 0px;
+    line-height: 1.3;
+    .highligth {
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin-bottom: 0px;
+      text-shadow: 0px 1px 12px rgba(255, 255, 255, 0.9);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .details {
+      background-color: $bg-primary-color;
+      color: #000;
+      width: 80%;
+      padding: 30px;
+      margin-left: 10%;
     }
   }
 }

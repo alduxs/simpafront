@@ -1,20 +1,26 @@
 <?php
 include_once('config/constantes.inc.php');
-
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simpaibero</title>
+    <title>Web Iluminación</title>
 
-    <meta name="title" content="" />
+    <meta name="title" content="Simpa Iberoamericana" />
     <meta name="description" content="" />
     <meta name="author" content="Aldo Iñiguez" />
     <meta name="revisit-after" content="15 days" />
     <meta name="robots" content="index follow" />
+
+    <link rel="icon" type="image/png" href="<?php echo _CONST_DOMINIO_ ?>favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="<?php echo _CONST_DOMINIO_ ?>favicon.svg" />
+    <link rel="shortcut icon" href="<?php echo _CONST_DOMINIO_ ?>favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo _CONST_DOMINIO_ ?>apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="<?php echo _CONST_DOMINIO_ ?>site.webmanifest" />
 
     <!-- BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
@@ -26,32 +32,53 @@ include_once('config/constantes.inc.php');
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/css/styles.css" />
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/fontawsome/css/all.css" />
-
+    <style>
+        #myCarousel {
+            --f-carousel-slide-height: 100%;
+            --f-carousel-spacing: 10px;
+            height: 100%;
+        }
+    </style>
 </head>
 
-<body id="body">
+<body>
 
+    <div class="velo" id="velo"></div>
 
-    <header class="header-home" style="background-image: url('assets/img/casa.jpg')">
+    <header class="header-home">
 
         <?php include_once('includes/top-navigation.php'); ?>
+
+        <div class="contenedor-slide" id="contenedor-slide">
+
+            <div class="f-carousel" id="myCarousel">
+                <div class="f-carousel__viewport">
+                    
+                        <div class="f-carousel__slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;"></div>
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+        
+
+        
 
 
     </header>
 
-    <main class="main">
+    <main>
 
         <section class="home-obras">
             <div class="container">
                 <!-- Titulo -->
                 <div class="row">
                     <div class="col-12">
-                        <h1>Buscar propiedad</h1>
-                    </div>
-                    <div class="col-12" id="errorMessage" style="display: none;">
-                        <div class="alert alert-danger" role="alert">
-                            Al menos 1 campo es obligatorio
-                        </div>
+                        <h1>Obras.</h1>
                     </div>
                 </div>
 
@@ -59,257 +86,98 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <form class="row g-3 needs-validation" novalidate>
 
-                        <div class="col-12 col-md-6 col-lg-4">
-
-                            <div class="bloque">
-                                <label for="tipopropiedad"><i class="fa-solid fa-house" id="icasa"></i> <i class="fa-solid fa-signs-post" id="iterreno"></i> Tipo de Propiedad</label>
-                                <select name="tipopropiedad" class="form-select" id="tipopropiedad" required>
-                                    <option value="0">Selecionar tipo de propiedad</option>
-                                    <?php
-                                    $queryPost = "SELECT * FROM tipo_propiedad ORDER BY id ASC";
-                                    $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                    ?>
-                                    <?php while ($arrPost = $rsPost->fetch(PDO::FETCH_BOTH)) { ?>
-                                        <option value="<?php echo $arrPost["id"] ?>"><?php echo $arrPost["tipo_prop_desc"] ?></option>
-                                    <?php } ?>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Este campo es obligatorio.
-                                </div>
-                            </div>
-
-
-
-
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="bloque">
-                                <label for="zona"><i class="fa-solid fa-map-location"></i> Zona</label>
-                                <select name="zona" class="form-select" id="zona">
-
-                                    <option value="0">Selecionar zona</option>
-                                    <?php
-                                    $queryPost = "SELECT * FROM zonas ORDER BY zona_id ASC";
-                                    $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                    ?>
-                                    <?php while ($arrPost = $rsPost->fetch(PDO::FETCH_BOTH)) { ?>
-                                        <option value="<?php echo $arrPost["zona_id"] ?>"><?php echo $arrPost["zona_desc"] ?></option>
-                                    <?php } ?>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="bloque">
-                                <label for="number"><i class="fa-solid fa-list-ol"></i> Nro. de Lote</label>
-                                <select name="number" class="form-select" id="number">
-
-                                    <option value="0">Seleccionar lote</option>
-                                    <?php
-                                    $queryPost = "SELECT * FROM propiedades ORDER BY prop_id ASC";
-                                    $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                    ?>
-                                    <?php while ($arrNumber = $rsPost->fetch(PDO::FETCH_BOTH)) { ?>
-                                        <option value="<?php echo $arrNumber["prop_id"] ?>"><?php echo $arrNumber["prop_id"] ?></option>
-                                    <?php } ?>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-4 mt-3">
-                            <div class="bloque">
-                                <div class="row">
-
-                                    <div class="col-12">
-                                        <label for="mt2" class="label-nomargin"><i class="fa-solid fa-up-down-left-right"></i> Metros Cuadrados</label>
-                                        <span class="info-label">Ingrese valores sin punto, coma o decimales</span>
-                                    </div>
-                                    <div class="col-12">
-                                        <?php
-                                        $queryPost = "SELECT p.prop_mt2 FROM propiedades p WHERE p.prop_mt2 > 0 ORDER BY p.prop_mt2 ASC LIMIT 0,1";
-                                        $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                        $minimo = $rsPost->fetchAll(PDO::FETCH_ASSOC);
-
-                                        $queryPost = "SELECT p.prop_mt2 FROM propiedades p WHERE p.prop_mt2 > 0 ORDER BY p.prop_mt2 DESC LIMIT 0,1";
-                                        $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                        $maximo = $rsPost->fetchAll(PDO::FETCH_ASSOC);
-                                        ?>
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Desde" aria-label="Desde" name="mt2d" id="mt2d">
-                                            <span class="input-group-text">-</span>
-                                            <input type="text" class="form-control" placeholder="Hasta" aria-label="Hasta" name="mt2h" id="mt2h">
-                                        </div>
-                                        <div class="maxmin">
-                                            <div style="display: inline;">Mínimo: <?php echo number_format($minimo[0]["prop_mt2"], 0, '', '.'); ?> mts<sup>2</sup></div>
-                                            <div style="display: inline;text-align: end;"> Máximo: <?php echo number_format($maximo[0]["prop_mt2"], 0, '', '.'); ?> mts<sup>2</sup></div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-
-
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-4 mt-3">
-                            <div class="bloque">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <label for="vmt2d" class="label-nomargin"><i class="fa-solid fa-circle-dollar-to-slot"></i> Valor del Metro Cuadrado</label>
-                                        <span class="info-label">Ingrese valores sin punto, coma o decimales</span>
-                                    </div>
-                                    <div class="col-12">
-
-                                        <?php
-                                        $queryPost = "SELECT p.prop_valor_mt2 FROM propiedades p WHERE p.prop_valor_mt2 > 0 ORDER BY p.prop_valor_mt2 ASC LIMIT 0,1";
-                                        $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                        $minimo = $rsPost->fetchAll(PDO::FETCH_ASSOC);
-
-                                        $queryPost = "SELECT p.prop_valor_mt2 FROM propiedades p WHERE p.prop_valor_mt2 > 0 ORDER BY p.prop_valor_mt2 DESC LIMIT 0,1";
-                                        $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                        $maximo = $rsPost->fetchAll(PDO::FETCH_ASSOC);
-                                        ?>
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Desde" aria-label="Desde" name="vmt2d" id="vmt2d">
-                                            <span class="input-group-text">-</span>
-                                            <input type="text" class="form-control" placeholder="Hasta" aria-label="Hasta" name="vmt2h" id="vmt2h">
-                                        </div>
-                                        <div class="maxmin">
-                                            <div style="display: inline;">Mínimo: U$S <?php echo number_format($minimo[0]["prop_valor_mt2"], 0, '', '.'); ?> por mt<sup>2</sup></div>
-                                            <div style="display: inline;text-align: end;"> Máximo: U$S <?php echo number_format($maximo[0]["prop_valor_mt2"], 0, '', '.'); ?> por mt<sup>2</sup></div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-12 col-lg-4 mt-3">
-                            <div class="bloque">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <label for="valor" class="label-nomargin"><i class="fa-solid fa-dollar-sign"></i> Valor propiedad</label>
-                                        <span class="info-label">Ingrese valores sin punto, coma o decimales</span>
-                                    </div>
-                                    <div class="col-12">
-                                        <?php
-                                        $queryPost = "SELECT p.prop_valor FROM propiedades p WHERE p.prop_valor > 0 ORDER BY p.prop_valor ASC LIMIT 0,1";
-                                        $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                        $minimo = $rsPost->fetchAll(PDO::FETCH_ASSOC);
-
-                                        $queryPost = "SELECT p.prop_valor FROM propiedades p WHERE p.prop_valor > 0 ORDER BY p.prop_valor DESC LIMIT 0,1";
-                                        $rsPost = $objContenido->getAllContenido($link, $queryPost);
-                                        $maximo = $rsPost->fetchAll(PDO::FETCH_ASSOC);
-                                        ?>
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Desde" aria-label="Desde" name="valord" id="valord">
-                                            <span class="input-group-text">-</span>
-                                            <input type="text" class="form-control" placeholder="Hasta" aria-label="Hasta" name="valorh" id="valorh">
-                                        </div>
-
-                                        <div class="maxmin">
-                                            <div style="display: inline;">Mínimo: U$S <?php echo number_format($minimo[0]["prop_valor"], 0, '', '.'); ?></div>
-                                            <div style="display: inline;text-align: end;">Máximo: U$S <?php echo number_format($maximo[0]["prop_valor"], 0, '', '.'); ?></div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 text-center mt-4">
-                            <button type="button" class="btn btn-primary bt-buscar" id="btnFiltrar">Buscar</button>
-                            <!--<button class="btn btn-primary" type="submit">Enviar formulario</button>-->
-                        </div>
-                    </form>
-
-
+                    
 
 
                 </div>
-
+                <!-- Fin Obras -->
+                <!-- Mas Obras -->
+                <div class="row">
+                    <div class="col-12 text-end">
+                        <div class="bt-mas-obras"><a href="<?php echo _CONST_DOMINIO_ ?>/obras">Mas obras <i class="fa-solid fa-angle-right"></i></a></div>
+                    </div>
+                </div>
+                <!-- Fin Mas Obras -->
 
             </div>
 
         </section>
 
-        <section class="resultados" id="resultadosSection">
+        <section class="home-empresa" id="empresaservicio">
+
             <div class="container">
-
-                <div class="row spinner" id="spinner" style="display: none;">
-                    <div class="col-12">
-                        <p><i class="fa-solid fa-rotate fa-spin"></i> Cargando resultados...</p>
-
-                    </div>
-                </div>
-
-                <div class="row" id="txtresultado" style="display: none;">
-                    <div class="col-6">
-
-                        <h2>Resultados</h2>
-                        <p><strong><span id="nresultados"></span></strong> resultados para la búsqueda <span id="busqueda"></span></p>
-                    </div>
-
-                    <div class="col-6 text-end">
-                        <div class="row">
-                            <div class="col-6">
-                                <label for="orderby"><strong>Ordenar por:</strong></label>
-                            </div>
-                            <div class="col-6">
-                                <select name="ordenarpor" id="ordenarpor" class="form-select">
-                                    <option value="0"></option>
-                                    <option value="1">Mayor precio</option>
-                                    <option value="2">Menor precio</option>
-                                    <option value="3">Zona</option>
-                                    <option value="4">Número de lote</option>
-                                </select>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
+                <!-- Servicios -->
                 <div class="row">
                     <div class="col-12">
-                        <div id="resultados">
+                        <div class="servicios-contenedor">
+                            <h3 class="titulo-servicio">Servicios.</h3>
+                            <div class="servicios-texto">
+                                <div class="bloque-servicio">
+                                    <h4>Proyecto y planificación <!--<i class="fa-solid fa-angle-down"></i>--></h4>
+                                    <p>Contamos con una estructura técnica con capacidad de desarrollo integral de proyectos de iluminación y planificación, diseñando soluciones lumínicas personalizadas que transforman espacios, maximizando la eficiencia energética y creando ambientes únicos y funcionales. Desde la concepción inicial hasta la implementación final, nos encargamos de cada etapa (análisis de necesidades, selección de luminarias adecuadas para cada área, cálculos fotométricos) sin dejar de lados los desarrollos arquitectónicos y urbanísticos</p>
+                                </div>
 
+                                <div class="bloque-servicio">
+                                    <h4>Comercialización y Fabricación</h4>
+                                    <p>Comercializamos una amplia gama de luminarias de marcas reconocidas, tanto nacionales como importadas, ofreciendo soluciones lumínicas para todo tipo de espacios y estilos. Además, diseñamos y fabricamos luminarias especiales y a medida, creando piezas únicas que se adaptan perfectamente a las necesidades y visión de cada proyecto.</p>
+                                </div>
+
+                                <div class="bloque-servicio">
+                                    <h4>Pruebas en Obra</h4>
+                                    <p>Contamos con una sólida experiencia en prueba de luminarias en obras, para asegurar que cada solución de iluminación sea optima, verificando la intensidad lumínica, la temperatura de color y la uniformidad de la luz en el entorno del proyecto. Esta etapa es crucial para garantizar que el resultado final cumpla con las expectativas estéticas y funcionales, optimizando el rendimiento de cada luminaria</p>
+                                </div>
+                                <div class="bloque-servicio">
+                                    <h4>Distribución</h4>
+                                    <p>Contamos con una logística de distribución que nos permite realizar envíos a cualquier punto del país</p>
+                                </div>
+                            </div>
+                            <!--<div class="servicios-imagen"></div>-->
                         </div>
 
                     </div>
                 </div>
-                <!-- NUEVA BUSQUEDA -->
-                <div class="row" id="divBtnNuevaBusqueda" style="display: none;">
-                    <div class="col-12 text-center mt-4">
-                        <button type="button" class="btn btn-primary bt-buscar" id="btnNuevaBusqueda">Nueva Bsqueda</button>
+                <!-- Fin Servicios -->
+
+
+                <!-- Empresa -->
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="empresa-contenedor">
+                            <h3 class="titulo-empresa">Empresa.</h3>
+                            <div class="empresa-texto">
+                                <p>Desde nuestros inicios en el año 2001, nos hemos consolidado como referentes en la comercialización de luminarias, atendiendo una amplia variedad de sectores que abarcan desde espacios residenciales y comerciales hasta proyectos industriales y urbanos.</p>
+                                <p>Nuestra identidad se construye sobre una atención personalizada para comprender en profundidad las necesidades específicas de cada cliente y cada obra, brindando soluciones de iluminación que se ajustan con precisión a sus objetivos y visión.</p>
+                                <p>La innovación es un pilar fundamental en todo lo que hacemos. Estamos en permanente búsqueda de las últimas tecnologías, tendencias y diseños del mercado para asegurar que nuestras propuestas no solo sean funcionales, sino también eficientes desde el punto de vista energético.</p>
+                                <p>Este compromiso nos permite ofrecer auténticas soluciones lumínicas que transforman ambientes y mejoran la calidad de vida.</p>
+                                <!--<p style="display: flex;justify-content: center;cursor:pointer;" id="masinfo"><i class="fa-solid fa-angle-down"></i></p>-->
+                            </div>
+                            <h3 class="titulo-empresa2">Empresa.</h3>
+                        </div>
                     </div>
                 </div>
 
+
             </div>
+            <!-- Fin Empresa -->
+
         </section>
 
     </main>
+
+    <?php include_once('includes/footer.php'); ?>
+
     <!-- BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Google maps -->
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8_03r9LkKX7DqnHDYfv8lbyvWH7gadwM&callback=initMap"></script>
 
 
     <!-- Main -->
-
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/slide.js"></script>
 
 
 
