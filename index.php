@@ -54,7 +54,7 @@ include_once('config/constantes.inc.php');
             <div class="f-carousel" id="myCarousel">
                 <div class="f-carousel__viewport">
                     
-                        <div class="f-carousel__slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;"></div>
+                        <div class="f-carousel__slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;background-position: center;"></div>
                     
                     
                 </div>
