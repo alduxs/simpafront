@@ -25,7 +25,7 @@
         <i class="fa-solid fa-magnifying-glass"></i>
     </div>
 
-    <div class="idioma-top">
+    <div class="idiomatop">
         <ul>
             <li><a href="https://www.instagram.com/websailuminacion/" target="_blank"><img src="<?php echo _CONST_DOMINIO_ ?>assets/img/barg.png" alt="" class="img-fluid"></a></li>
             <li><a href="https://www.instagram.com/websailuminacion/" target="_blank"><img src="<?php echo _CONST_DOMINIO_ ?>assets/img/bbra.png" alt="" class="img-fluid"></a></li>
@@ -34,8 +34,8 @@
 
 </div>
 <div class="find-container">
-        <div class="find-box">
-            <input type="text" placeholder="Buscar...">
-            <button>Buscar</button>
-        </div>
+    <div class="find-box">
+        <input type="text" placeholder="Buscar...">
+        <button>Buscar</button>
+    </div>
 </div>

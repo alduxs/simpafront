@@ -50,10 +50,34 @@
     .open-menu {
       right: 0px;
     }
-    .idioma-top {
+    .fifty{
+      display: none;
+    }
+    .find{
+       display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .idiomatop {
+      display: inline-flex;
+      ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+          margin: 0 3px;
+          height: auto;
+          width: 30px;
+          text-align: center;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      }
+      /*
       ul {
         display: flex;
-        /*justify-content: center;*/
         align-items: center;
         height: 100%;
         list-style: none;
@@ -72,7 +96,7 @@
             font-size: 25px;
           }
         }
-      }
+      }*/
     }
   }
 
@@ -80,7 +104,7 @@
     width: 100%;
     position: relative;
     background-color: $bg-quinary-color;
-    padding: 8px 0px;
+    padding: 15px 0px;
     text-align: center;
     input{
       width: 60%;
@@ -88,6 +112,7 @@
       border: none;
       border-radius: 25px 0px 0px 25px;
       font-size: 1rem;
+      padding-left: 20px;
     }
     button{
       padding: 10px 20px;

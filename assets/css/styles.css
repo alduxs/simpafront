@@ -25,8 +25,8 @@ body {
   position: absolute;
   width: 60px;
   height: 60px;
-  top: 30px;
-  right: 20px;
+  top: 10px;
+  right: 0px;
   transition-duration: 0.5s;
   z-index: 2300;
   display: block;
@@ -177,33 +177,58 @@ body {
 .header-home .top-navigation .open-menu {
   right: 0px;
 }
-.header-home .top-navigation .idioma-top ul {
-  display: flex;
-  /*justify-content: center;*/
-  align-items: center;
-  height: 100%;
-  list-style: none;
+.header-home .top-navigation .fifty {
+  display: none;
 }
-.header-home .top-navigation .idioma-top ul li {
+.header-home .top-navigation .find {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-home .top-navigation .idiomatop {
+  display: inline-flex;
+  /*
+  ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    li {
+      margin: 0 3px;
+      height: auto;
+      width: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        color: $font-link-color-grey;
+      }
+      i {
+        font-size: 25px;
+      }
+    }
+  }*/
+}
+.header-home .top-navigation .idiomatop ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-home .top-navigation .idiomatop ul li {
   margin: 0 3px;
   height: auto;
   width: 30px;
   text-align: center;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-}
-.header-home .top-navigation .idioma-top ul li a {
-  color: #575757;
-}
-.header-home .top-navigation .idioma-top ul li i {
-  font-size: 25px;
 }
 .header-home .find-container {
   width: 100%;
   position: relative;
   background-color: #f7edc4;
-  padding: 8px 0px;
+  padding: 15px 0px;
   text-align: center;
 }
 .header-home .find-container input {
@@ -212,6 +237,7 @@ body {
   border: none;
   border-radius: 25px 0px 0px 25px;
   font-size: 1rem;
+  padding-left: 20px;
 }
 .header-home .find-container button {
   padding: 10px 20px;
