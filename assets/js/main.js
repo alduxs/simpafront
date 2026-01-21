@@ -1,5 +1,7 @@
 let map;
 let btnHamburger = document.getElementById("bt-hamburger");
+let btnFind = document.getElementById("bt-find");
+let findContainer = document.getElementById("findcontainer");
 let menu = document.getElementById("menu");
 let velo = document.getElementById("velo");
 let bloqueServicio = document.querySelectorAll(".bloque-servicio");
@@ -224,6 +226,12 @@ btnHamburger.addEventListener("click", function () {
   
   menu.classList.toggle("open-menu");
   this.classList.toggle("open");
+
+});
+
+btnFind.addEventListener("click", function () {
+
+  findContainer.classList.toggle("find-container-open");
 
 });
 

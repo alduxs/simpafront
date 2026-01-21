@@ -25,7 +25,7 @@ body {
   position: absolute;
   width: 60px;
   height: 60px;
-  top: 10px;
+  top: 16px;
   right: 0px;
   transition-duration: 0.5s;
   z-index: 2300;
@@ -122,6 +122,22 @@ body {
   z-index: 2000;
 }
 
+.link-buton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #bf8d00;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 25px;
+  display: block;
+}
+.link-buton:hover {
+  background-color: rgb(140, 103.3507853403, 0);
+}
+
 /* LAYOUT */
 /* Header */
 .header-home {
@@ -131,19 +147,21 @@ body {
   position: relative;
   justify-items: center;
   display: grid;
+  overflow: hidden;
   align-content: space-between;
 }
 .header-home .top-navigation {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #fcfcfc;
   padding: 20px 20px;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 35% 35% 15% 15%;
   position: relative;
   z-index: 2050;
 }
 .header-home .top-navigation .logo {
   padding: 5px 0px;
+  order: 1;
 }
 .header-home .top-navigation .menu {
   background-color: #fff;
@@ -184,31 +202,13 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  order: 3;
 }
 .header-home .top-navigation .idiomatop {
   display: inline-flex;
-  /*
-  ul {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    list-style: none;
-    li {
-      margin: 0 3px;
-      height: auto;
-      width: 30px;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      a {
-        color: $font-link-color-grey;
-      }
-      i {
-        font-size: 25px;
-      }
-    }
-  }*/
+  align-items: center;
+  justify-content: space-around;
+  order: 2;
 }
 .header-home .top-navigation .idiomatop ul {
   list-style: none;
@@ -226,20 +226,24 @@ body {
 }
 .header-home .find-container {
   width: 100%;
-  position: relative;
-  background-color: #f7edc4;
+  position: absolute;
+  background-color: #fcfcfc;
   padding: 15px 0px;
   text-align: center;
+  z-index: 1950;
+  top: 0px;
+  transition: all 0.3s ease-in-out;
 }
-.header-home .find-container input {
+.header-home .find-container .find-box input {
   width: 60%;
   padding: 10px;
   border: none;
   border-radius: 25px 0px 0px 25px;
   font-size: 1rem;
   padding-left: 20px;
+  border: 1px solid #ccc;
 }
-.header-home .find-container button {
+.header-home .find-container .find-box button {
   padding: 10px 20px;
   border: none;
   border-radius: 0px 25px 25px 0px;
@@ -248,8 +252,11 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
-.header-home .find-container button:hover {
+.header-home .find-container .find-box button:hover {
   background-color: rgb(140, 103.3507853403, 0);
+}
+.header-home .find-container-open {
+  top: 90px;
 }
 .header-home .contenedor-slide {
   position: relative;
@@ -257,36 +264,39 @@ body {
   height: 100svh;
   z-index: 1000;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 25px;
 }
-.header-home .text-slide {
-  position: absolute;
-  bottom: 0;
-  z-index: 1800;
+.header-home .contenedor-slide .isotipo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.header-home .contenedor-slide .isotipo img {
+  width: 100%;
+  height: auto;
+}
+.header-home .contenedor-slide h1 {
   color: #fff;
+  font-size: 2.2rem;
   text-align: center;
-  width: 100%;
-  padding: 15px 0px 50px 0px;
-  line-height: 1.3;
+  margin-bottom: 15px;
+  font-weight: 700;
 }
-.header-home .text-slide .highligth {
-  font-size: 2.5rem;
-  font-weight: 500;
-  margin-bottom: 0px;
-  text-shadow: 0px 1px 12px rgba(255, 255, 255, 0.9);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header-home .contenedor-slide p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
 }
-.header-home .text-slide .details {
-  background-color: #fcfcfc;
-  color: #000;
-  width: 80%;
-  padding: 30px;
-  margin-left: 10%;
+.header-home .contenedor-slide p a {
+  color: #fff;
+}
+.header-home .contenedor-slide p a:hover {
+  color: white;
 }
 
 footer {

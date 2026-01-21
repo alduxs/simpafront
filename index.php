@@ -49,24 +49,16 @@ include_once('config/constantes.inc.php');
 
         <?php include_once('includes/top-navigation.php'); ?>
 
-        <div class="contenedor-slide" id="contenedor-slide">
+        <div class="contenedor-slide" id="contenedor-slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;background-position: center;">
 
-            <div class="f-carousel" id="myCarousel">
-                <div class="f-carousel__viewport">
-                    
-                        <div class="f-carousel__slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;background-position: center;"></div>
-                    
-                    
-                </div>
+            <div class="isotipo">
+                <img src="assets/img/isotipo.png" alt="">
             </div>
+            <h1>Somos la evolución en la historia del pan</h1>
+            <p>Con más de 50 años de prestigio en el mercado</p>
+            <p><a href="#" class="link-buton">Nuestra Empresa</a></p>
 
         </div>
-
-
-
-        
-
-        
 
 
     </header>
@@ -87,7 +79,7 @@ include_once('config/constantes.inc.php');
                 <div class="row">
 
 
-                    
+
 
 
                 </div>
