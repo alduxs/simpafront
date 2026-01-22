@@ -18,8 +18,20 @@
   text-decoration: none;
   cursor: pointer;
   margin-top: 25px;
-  display: block;
+  display: inline-block;
   &:hover {
     background-color: darken($bg-secondary-color, 10%);
   }
+}
+.logo-gris {
+  background-image: url('../img/logo-gris.png');
+  background-repeat: no-repeat;
+  background-position: 95% 97%;
+  background-size: 35px;
+}
+.logo-color {
+  background-image: url('../img/isotipo.png');
+  background-repeat: no-repeat;
+  background-position: 97% 5%;
+  background-size: 35px;
 }

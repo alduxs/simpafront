@@ -65,36 +65,152 @@ include_once('config/constantes.inc.php');
 
     <main>
 
-        <section class="home-obras">
+        <!--Seccion 1-->
+        <section class="model1" style="background-image: url('assets/img/logo-fondo-linea.png');background-repeat: no-repeat;background-position: left center;">
             <div class="container">
-                <!-- Titulo -->
+                
                 <div class="row">
+
                     <div class="col-12">
-                        <h1>Obras.</h1>
+
+                        <div class="contenido logo-gris">
+                            <div class="contenido-imagen">
+                                <img src="assets/img/batidora.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="contenido-texto">
+                                <h2>Garantizamos productos de alta calidad, gran robustez y productividad</h2>
+                                <p>Disponemos de un espacio exclusivo para que nuestros representantes puedan probar equipos industriales SIMPA en condiciones reales de trabajo y garantizar un óptimo rendimiento y la calidad buscada en el producto fina</p>
+                            </div>
+                        </div>
+
+                        
                     </div>
+
+                   
+                    
                 </div>
-
-                <!-- Obras -->
-
-                <div class="row">
-
-
-
-
-
-                </div>
-                <!-- Fin Obras -->
-                <!-- Mas Obras -->
-                <div class="row">
-                    <div class="col-12 text-end">
-                        <div class="bt-mas-obras"><a href="<?php echo _CONST_DOMINIO_ ?>/obras">Mas obras <i class="fa-solid fa-angle-right"></i></a></div>
-                    </div>
-                </div>
-                <!-- Fin Mas Obras -->
 
             </div>
 
         </section>
+        <!-- Fin Seccion 1-->
+
+        <!--Seccion 2-->
+        <section class="model2 " style="background-image: url('assets/img/bgrd01.jpg');background-repeat: no-repeat;background-position: left center;">
+            <div class="container logo-color">
+                
+                <div class="row">
+
+                    <div class="col-12">
+
+                            <div class="contenido-texto">
+                                <h2>Panificación</h2>
+                                <p>Ofrecemos una amplia gama de equipos diseñados y fabricados para satisfacer tanto la demanda del consumidor final como la de nuestros clientes fabricantes.</p>
+                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                            </div>
+
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
+                    </div>
+
+                   
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 2-->
+
+        <!--Seccion 3-->
+        <section class="model2 " style="background-image: url('assets/img/bgrd02.jpg');background-repeat: no-repeat;background-position: left center;">
+            <div class="container logo-color">
+                
+                <div class="row">
+
+                    <div class="col-12">
+
+                            <div class="contenido-texto">
+                                <h2>LAMINADOS</h2>
+                                <p>Nuestros equipos de última generación aseguran calidad en cantidad para medianas y grandes producciones.</p>
+                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                            </div>
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
+                    </div>
+
+                   
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 3-->
+
+        <!--Seccion 4-->
+        <section class="model2 " style="background-image: url('assets/img/bgrd03.jpg');background-repeat: no-repeat;background-position: left center;">
+            <div class="container logo-color">
+                
+                <div class="row">
+
+                    <div class="col-12">
+
+                            <div class="contenido-texto">
+                                <h2>PASTELERÍA</h2>
+                                <p>Contamos con gran variedad de modelos y accesorios profesionales a la altura de los estándares exigentes de la pastelería.</p>
+                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                            </div>
+                    </div>
+
+                    <div class="col-12">
+                        <img src="assets/img/maquina-contorno03.png" alt="" class="img-fluid">
+                    </div>
+
+                   
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 4-->
+
+        <!--Seccion 5-->
+        <section class="model2 " style="background-image: url('assets/img/bgrd04.jpg');background-repeat: no-repeat;background-position: left center;">
+            <div class="container logo-color">
+                
+                <div class="row">
+
+                    <div class="col-12">
+
+                            <div class="contenido-texto">
+                                <h2>MASAS Y PRECOCIDOS</h2>
+                                <p>Brindamos calidad y durabilidad en equipos para optimizar grandes producciones.</p>
+                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                            </div>
+
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <img src="assets/img/maquina-contorno04.png" alt="" class="img-fluid">
+                    </div>
+
+                   
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 5-->
 
         <section class="home-empresa" id="empresaservicio">
 
