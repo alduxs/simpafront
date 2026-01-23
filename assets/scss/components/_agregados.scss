@@ -35,3 +35,14 @@
   background-position: 97% 5%;
   background-size: 35px;
 }
+.shadow-box {
+  box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
+   -webkit-box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
+   -moz-box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
+}
+.separacion-2-columnas{
+  margin-bottom: 30px;
+}
+.border-color-secondary{
+  border: 4px solid $bg-secondary-color;
+}

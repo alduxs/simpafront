@@ -68,12 +68,12 @@ include_once('config/constantes.inc.php');
         <!--Seccion 1-->
         <section class="model1" style="background-image: url('assets/img/logo-fondo-linea.png');background-repeat: no-repeat;background-position: left center;">
             <div class="container">
-                
+
                 <div class="row">
 
                     <div class="col-12">
 
-                        <div class="contenido logo-gris">
+                        <div class="contenido shadow-box logo-gris">
                             <div class="contenido-imagen">
                                 <img src="assets/img/batidora.jpg" alt="" class="img-fluid">
                             </div>
@@ -83,11 +83,11 @@ include_once('config/constantes.inc.php');
                             </div>
                         </div>
 
-                        
+
                     </div>
 
-                   
-                    
+
+
                 </div>
 
             </div>
@@ -98,26 +98,26 @@ include_once('config/constantes.inc.php');
         <!--Seccion 2-->
         <section class="model2 " style="background-image: url('assets/img/bgrd01.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
-                
+
                 <div class="row">
 
                     <div class="col-12">
 
-                            <div class="contenido-texto">
-                                <h2>Panificación</h2>
-                                <p>Ofrecemos una amplia gama de equipos diseñados y fabricados para satisfacer tanto la demanda del consumidor final como la de nuestros clientes fabricantes.</p>
-                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
-                            </div>
+                        <div class="contenido-texto">
+                            <h2>Panificación</h2>
+                            <p>Ofrecemos una amplia gama de equipos diseñados y fabricados para satisfacer tanto la demanda del consumidor final como la de nuestros clientes fabricantes.</p>
+                            <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                        </div>
 
-                        
+
                     </div>
 
                     <div class="col-12">
                         <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
                     </div>
 
-                   
-                    
+
+
                 </div>
 
             </div>
@@ -128,25 +128,25 @@ include_once('config/constantes.inc.php');
         <!--Seccion 3-->
         <section class="model2 " style="background-image: url('assets/img/bgrd02.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
-                
+
                 <div class="row">
 
                     <div class="col-12">
 
-                            <div class="contenido-texto">
-                                <h2>LAMINADOS</h2>
-                                <p>Nuestros equipos de última generación aseguran calidad en cantidad para medianas y grandes producciones.</p>
-                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
-                            </div>
-                        
+                        <div class="contenido-texto">
+                            <h2>LAMINADOS</h2>
+                            <p>Nuestros equipos de última generación aseguran calidad en cantidad para medianas y grandes producciones.</p>
+                            <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                        </div>
+
                     </div>
 
                     <div class="col-12">
                         <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
                     </div>
 
-                   
-                    
+
+
                 </div>
 
             </div>
@@ -157,24 +157,24 @@ include_once('config/constantes.inc.php');
         <!--Seccion 4-->
         <section class="model2 " style="background-image: url('assets/img/bgrd03.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
-                
+
                 <div class="row">
 
                     <div class="col-12">
 
-                            <div class="contenido-texto">
-                                <h2>PASTELERÍA</h2>
-                                <p>Contamos con gran variedad de modelos y accesorios profesionales a la altura de los estándares exigentes de la pastelería.</p>
-                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
-                            </div>
+                        <div class="contenido-texto">
+                            <h2>PASTELERÍA</h2>
+                            <p>Contamos con gran variedad de modelos y accesorios profesionales a la altura de los estándares exigentes de la pastelería.</p>
+                            <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                        </div>
                     </div>
 
                     <div class="col-12">
                         <img src="assets/img/maquina-contorno03.png" alt="" class="img-fluid">
                     </div>
 
-                   
-                    
+
+
                 </div>
 
             </div>
@@ -185,26 +185,24 @@ include_once('config/constantes.inc.php');
         <!--Seccion 5-->
         <section class="model2 " style="background-image: url('assets/img/bgrd04.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
-                
+
                 <div class="row">
 
                     <div class="col-12">
 
-                            <div class="contenido-texto">
-                                <h2>MASAS Y PRECOCIDOS</h2>
-                                <p>Brindamos calidad y durabilidad en equipos para optimizar grandes producciones.</p>
-                                <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
-                            </div>
+                        <div class="contenido-texto">
+                            <h2>MASAS Y PRECOCIDOS</h2>
+                            <p>Brindamos calidad y durabilidad en equipos para optimizar grandes producciones.</p>
+                            <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
+                        </div>
 
-                        
                     </div>
 
                     <div class="col-12">
                         <img src="assets/img/maquina-contorno04.png" alt="" class="img-fluid">
                     </div>
 
-                   
-                    
+
                 </div>
 
             </div>
@@ -212,64 +210,42 @@ include_once('config/constantes.inc.php');
         </section>
         <!-- Fin Seccion 5-->
 
-        <section class="home-empresa" id="empresaservicio">
-
+        <!--Seccion 6-->
+        <section class="model1" style="background-image: url('assets/img/logo-fondo-linea.png');background-repeat: no-repeat;background-position: left center;">
             <div class="container">
-                <!-- Servicios -->
+
                 <div class="row">
+
                     <div class="col-12">
-                        <div class="servicios-contenedor">
-                            <h3 class="titulo-servicio">Servicios.</h3>
-                            <div class="servicios-texto">
-                                <div class="bloque-servicio">
-                                    <h4>Proyecto y planificación <!--<i class="fa-solid fa-angle-down"></i>--></h4>
-                                    <p>Contamos con una estructura técnica con capacidad de desarrollo integral de proyectos de iluminación y planificación, diseñando soluciones lumínicas personalizadas que transforman espacios, maximizando la eficiencia energética y creando ambientes únicos y funcionales. Desde la concepción inicial hasta la implementación final, nos encargamos de cada etapa (análisis de necesidades, selección de luminarias adecuadas para cada área, cálculos fotométricos) sin dejar de lados los desarrollos arquitectónicos y urbanísticos</p>
-                                </div>
 
-                                <div class="bloque-servicio">
-                                    <h4>Comercialización y Fabricación</h4>
-                                    <p>Comercializamos una amplia gama de luminarias de marcas reconocidas, tanto nacionales como importadas, ofreciendo soluciones lumínicas para todo tipo de espacios y estilos. Además, diseñamos y fabricamos luminarias especiales y a medida, creando piezas únicas que se adaptan perfectamente a las necesidades y visión de cada proyecto.</p>
-                                </div>
-
-                                <div class="bloque-servicio">
-                                    <h4>Pruebas en Obra</h4>
-                                    <p>Contamos con una sólida experiencia en prueba de luminarias en obras, para asegurar que cada solución de iluminación sea optima, verificando la intensidad lumínica, la temperatura de color y la uniformidad de la luz en el entorno del proyecto. Esta etapa es crucial para garantizar que el resultado final cumpla con las expectativas estéticas y funcionales, optimizando el rendimiento de cada luminaria</p>
-                                </div>
-                                <div class="bloque-servicio">
-                                    <h4>Distribución</h4>
-                                    <p>Contamos con una logística de distribución que nos permite realizar envíos a cualquier punto del país</p>
-                                </div>
+                        <div class="card shadow-box separacion-2-columnas border-color-secondary" style="border-radius: 0;">
+                            <img src="assets/img/preventa.jpg" class="card-img-top" style="border-radius: 0;">
+                            <div class="card-body">
+                                <h5 class="card-title">PREVENTA</h5>
+                                <p class="card-text">Nuestros técnicos lo ayudarán a evaluar su necesidad real presente y futura.Así, en forma conjunta, es posible desarrollar el layout que más se adapte a cada necesidad.</p>
                             </div>
-                            <!--<div class="servicios-imagen"></div>-->
-                        </div>
-
-                    </div>
-                </div>
-                <!-- Fin Servicios -->
-
-
-                <!-- Empresa -->
-                <div class="row mt-3">
-                    <div class="col-12">
-                        <div class="empresa-contenedor">
-                            <h3 class="titulo-empresa">Empresa.</h3>
-                            <div class="empresa-texto">
-                                <p>Desde nuestros inicios en el año 2001, nos hemos consolidado como referentes en la comercialización de luminarias, atendiendo una amplia variedad de sectores que abarcan desde espacios residenciales y comerciales hasta proyectos industriales y urbanos.</p>
-                                <p>Nuestra identidad se construye sobre una atención personalizada para comprender en profundidad las necesidades específicas de cada cliente y cada obra, brindando soluciones de iluminación que se ajustan con precisión a sus objetivos y visión.</p>
-                                <p>La innovación es un pilar fundamental en todo lo que hacemos. Estamos en permanente búsqueda de las últimas tecnologías, tendencias y diseños del mercado para asegurar que nuestras propuestas no solo sean funcionales, sino también eficientes desde el punto de vista energético.</p>
-                                <p>Este compromiso nos permite ofrecer auténticas soluciones lumínicas que transforman ambientes y mejoran la calidad de vida.</p>
-                                <!--<p style="display: flex;justify-content: center;cursor:pointer;" id="masinfo"><i class="fa-solid fa-angle-down"></i></p>-->
-                            </div>
-                            <h3 class="titulo-empresa2">Empresa.</h3>
                         </div>
                     </div>
+
+                    <div class="col-12">
+
+                        <div class="card shadow-box border-color-secondary" style="border-radius: 0;">
+                            <img src="assets/img/postventa.jpg" class="card-img-top" style="border-radius: 0;">
+                            <div class="card-body">
+                                <h5 class="card-title">POSVENTA</h5>
+                                <p class="card-text">La puesta a punto del equipamiento como así también servicios técnicos y un amplio stock de repuestos están de forma permaneten a disposición de nuestros clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-
-
             </div>
-            <!-- Fin Empresa -->
-
         </section>
+        <!-- Fin Seccion 6-->
+
+
+
 
     </main>
 

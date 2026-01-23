@@ -152,6 +152,20 @@ body {
   background-size: 35px;
 }
 
+.shadow-box {
+  box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
+}
+
+.separacion-2-columnas {
+  margin-bottom: 30px;
+}
+
+.border-color-secondary {
+  border: 4px solid #bf8d00;
+}
+
 /* LAYOUT */
 /* Header */
 .header-home {
@@ -350,9 +364,6 @@ footer #map {
 }
 .model1 .contenido {
   background-color: #fff;
-  box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
-  -webkit-box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
-  -moz-box-shadow: -5px 3px 22px -2px rgba(0, 0, 0, 0.76);
   display: flex;
   flex-direction: column;
 }
@@ -371,6 +382,9 @@ footer #map {
   color: #212121;
   font-size: 16px;
   line-height: 1.5;
+}
+.model1 .card .card-body {
+  padding: 30px;
 }
 
 .model2 {
