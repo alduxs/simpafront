@@ -46,3 +46,15 @@
 .border-color-secondary{
   border: 4px solid $bg-secondary-color;
 }
+.ultilde{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  li{
+    margin-bottom: 15px;
+    img{
+      margin-right: 10px;
+    }
+  }
+  
+}

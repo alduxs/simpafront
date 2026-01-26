@@ -244,6 +244,40 @@ include_once('config/constantes.inc.php');
         </section>
         <!-- Fin Seccion 6-->
 
+        <!--Seccion 7-->
+        <section class="model3">
+            <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat;background-position: center top;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>LABORATORIO</h2>
+                            <p>Disponemos de un <strong>espacio</strong> exclusivo para que nuestros representantes puedan probar equipos industriales <strong>SIMPA</strong> en condiciones reales de trabajo y garantizar un óptimo rendimiento y la calidad buscada en el producto fina</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedor-b" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Aquí podrás:</p>
+                            <ul class="ultilde">
+                                <li><img src="assets/img/tilde.png" alt="Icono">Testear amasadoras, batidoras, hornos y más, con tus propias recetas o con las que te sugerimos.</li>
+                                <li><img src="assets/img/tilde.png" alt="Icono">Evaluar rendimiento, calidad y eficiencia de cada máquina.</li>
+                                <li><img src="assets/img/tilde.png" alt="Icono">Recibir asesoramiento técnico y recomendaciones de nuestro equipo especializado.</li>
+                            </ul>
+                            <p><strong>Nuestro objetivo es que tomes la decisión de compra con total seguridad, asegurándote de que el equipo elegido se adapta a las necesidades de tu negocio.</strong></p>
+                            <p><strong>Probá, compará y elegí con confianza.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        </section>
+        <!-- Fin Seccion 7-->
+
 
 
 

@@ -52,3 +52,22 @@
     }
   
 }
+
+.model3 {
+  background-color: $bg-white-color;
+ 
+  .contenedor-a{
+    padding: 150px 30px 60px;
+    color: $font-tertiary-color;
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+  }
+  .contenedor-b{
+    padding: 60px 30px;
+  }
+  
+}
