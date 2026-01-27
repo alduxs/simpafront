@@ -8,7 +8,7 @@
   align-items: center;
   z-index: 2000;
 }
-.link-buton {
+.link-buton,.link-buton-block {
   padding: 10px 20px;
   border: none;
   border-radius: 25px 25px 25px 25px;
@@ -23,6 +23,10 @@
     background-color: darken($bg-secondary-color, 10%);
   }
 }
+.link-buton-block{
+  display: block;
+  text-align: center;
+}
 .logo-gris {
   background-image: url('../img/logo-gris.png');
   background-repeat: no-repeat;
@@ -32,7 +36,7 @@
 .logo-color {
   background-image: url('../img/isotipo.png');
   background-repeat: no-repeat;
-  background-position: 97% 5%;
+  background-position: 100% 0%;
   background-size: 35px;
 }
 .shadow-box {
@@ -45,6 +49,9 @@
 }
 .border-color-secondary{
   border: 4px solid $bg-secondary-color;
+}
+.rounded30{
+  border-radius: 30px;
 }
 .ultilde{
   list-style: none;

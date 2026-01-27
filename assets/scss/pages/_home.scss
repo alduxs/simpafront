@@ -50,7 +50,27 @@
         line-height: 1.5;
       }
     }
-  
+}
+
+.model22 {
+  background-color: $bg-white-color;
+  padding: 60px 25px;
+  .contenido-texto {
+      padding: 40px 0px 40px 0px;
+      color: $font-tertiary-color;
+      h2 {
+        font-family: $font-family;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: $font-family;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
 }
 
 .model3 {

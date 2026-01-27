@@ -278,6 +278,135 @@ include_once('config/constantes.inc.php');
         </section>
         <!-- Fin Seccion 7-->
 
+        <!--Seccion 8-->
+        <section class="model22 " style="background-image: url('assets/img/bgrd-envio.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+            <div class="container logo-color">
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <div class="contenido-texto">
+                            <h2>¿Querés ampliar tu negocio con una línea de equipos industriales de alta calidad y gran demanda?</h2>
+                            <p>En SIMPA te ofrecemos la oportunidad de convertirte en distribuidor oficial y sumar a tu cartera productos que combinan innovación, rentabilidad y respaldo técnico garantizado.</p>
+                            <p>Al ser parte de nuestra red vas a acceder a:</p>
+                            <ul class="ultilde">
+                                <li><img src="assets/img/tilde.png" alt="Icono">Testear amasadoras, batidoras, hornos y más, con tus propias recetas o con las que te sugerimos.</li>
+                                <li><img src="assets/img/tilde.png" alt="Icono">Evaluar rendimiento, calidad y eficiencia de cada máquina.</li>
+                                <li><img src="assets/img/tilde.png" alt="Icono">Recibir asesoramiento técnico y recomendaciones de nuestro equipo especializado.</li>
+                            </ul>
+                            <p>Buscamos aliados estratégicos con visión de crecimiento y compromiso para expandir nuestra presencia en todo el país.</p>
+                            <p><strong>Completá el formulario y comenzá hoy mismo a distribuir con nosotros</strong></p>
+                            <p><a href="#" class="link-buton">Formulario</a></p>
+                        </div>
+
+                    </div>
+
+                    
+
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 8-->
+
+        <!--Seccion 9-->
+        <section class="model1" style="background-image: url('assets/img/fondo-logo-gris.-big.png');background-repeat: no-repeat;background-position: right center;">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <h2>SERVICIO DE IMPORTACIÓN</h2>
+                        <p>Ofrecemos a nuestros distribuidores un <strong>servicio especializado de logística</strong>, pensado para aquellas empresas que necesitan <strong>equipos específicos</strong> que no se encuentran fácilmente en el mercado local.</p>
+                        <p>Nuestro equipo se encarga de:</p>
+                        <ul class="ultilde">
+                            <li><img src="assets/img/tilde.png" alt="Icono">Identificar y seleccionar <strong>proveedores confiables</strong> en el exterior.</li>
+                            <li><img src="assets/img/tilde.png" alt="Icono">Gestionar toda la <strong>logística de importación</strong>, desde el origen hasta la entrega.</li>
+                            <li><img src="assets/img/tilde.png" alt="Icono">Asegurar <strong>compatibilidad, instalación y soporte técnico</strong> para que el equipo funcione sin inconvenientes.</li>
+                        </ul>
+                        <p>De esta forma, <strong>acompañamos a cada cliente</strong> en el proceso completo, brindando soluciones a medida y la tranquilidad de contar con un respaldo profesional en cada etapa.</p>
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <img src="assets/img/que-es-mercancia-aduana.jpg" alt="" class="img-fluid shadow-box border-color-secondary rounded30">
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Fin Seccion 9-->
+
+        <!--Seccion 10-->
+        <section class="model1" style="background-image: url('assets/img/degradado-gris.png');background-repeat: no-repeat;background-position: right center;">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <h2>NUESTROS PRODUCTOS</h2>
+                        <p>Amplia gama de equipo diseñados para ajustarse a las necesidades de cada negocio  y optimizar al máximo la producción.</p>
+                        
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <h3>AMASADORAS</h3>
+                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <div class="card-body">
+                                <p><a href="#" class="link-buton-block">Ver más</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <h3>AMASADORAS</h3>
+                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <div class="card-body">
+                                <p><a href="#" class="link-buton-block">Ver más</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <h3>AMASADORAS</h3>
+                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <div class="card-body">
+                                <p><a href="#" class="link-buton-block">Ver más</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-12">
+                        <h3>AMASADORAS</h3>
+                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <div class="card-body">
+                                <p><a href="#" class="link-buton-block">Ver más</a></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Fin Seccion 10-->
+
 
 
 

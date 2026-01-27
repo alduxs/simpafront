@@ -122,7 +122,7 @@ body {
   z-index: 2000;
 }
 
-.link-buton {
+.link-buton, .link-buton-block {
   padding: 10px 20px;
   border: none;
   border-radius: 25px 25px 25px 25px;
@@ -134,8 +134,13 @@ body {
   margin-top: 25px;
   display: inline-block;
 }
-.link-buton:hover {
+.link-buton:hover, .link-buton-block:hover {
   background-color: rgb(140, 103.3507853403, 0);
+}
+
+.link-buton-block {
+  display: block;
+  text-align: center;
 }
 
 .logo-gris {
@@ -148,7 +153,7 @@ body {
 .logo-color {
   background-image: url("../img/isotipo.png");
   background-repeat: no-repeat;
-  background-position: 97% 5%;
+  background-position: 100% 0%;
   background-size: 35px;
 }
 
@@ -164,6 +169,10 @@ body {
 
 .border-color-secondary {
   border: 4px solid #bf8d00;
+}
+
+.rounded30 {
+  border-radius: 30px;
 }
 
 .ultilde {
@@ -416,6 +425,27 @@ footer #map {
   margin-bottom: 30px;
 }
 .model2 .contenido-texto p {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.model22 {
+  background-color: #fff;
+  padding: 60px 25px;
+}
+.model22 .contenido-texto {
+  padding: 40px 0px 40px 0px;
+  color: #fff;
+}
+.model22 .contenido-texto h2 {
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+.model22 .contenido-texto p {
   font-family: "Roboto", serif;
   font-size: 16px;
   line-height: 1.5;
