@@ -21,10 +21,9 @@
         line-height: 1.5;
       }
     }
-    
   }
-  .card{
-    .card-body{
+  .card {
+    .card-body {
       padding: 30px;
     }
   }
@@ -34,49 +33,49 @@
   background-color: $bg-white-color;
   padding: 60px 25px;
   .contenido-texto {
-      padding: 40px 40px 40px 40px;
-      color: $font-tertiary-color;
-      h2 {
-        font-family: $font-family;
-        font-size: 30px;
-        font-weight: 700;
-        margin-bottom: 15px;
-        text-transform: uppercase;
-        margin-bottom: 30px;
-      }
-      p {
-        font-family: $font-family;
-        font-size: 16px;
-        line-height: 1.5;
-      }
+    padding: 40px 40px 40px 40px;
+    color: $font-tertiary-color;
+    h2 {
+      font-family: $font-family;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
     }
+    p {
+      font-family: $font-family;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
 }
 
 .model22 {
   background-color: $bg-white-color;
   padding: 60px 25px;
   .contenido-texto {
-      padding: 40px 0px 40px 0px;
-      color: $font-tertiary-color;
-      h2 {
-        font-family: $font-family;
-        font-size: 30px;
-        font-weight: 700;
-        margin-bottom: 15px;
-        margin-bottom: 30px;
-      }
-      p {
-        font-family: $font-family;
-        font-size: 16px;
-        line-height: 1.5;
-      }
+    padding: 40px 0px 40px 0px;
+    color: $font-tertiary-color;
+    h2 {
+      font-family: $font-family;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      margin-bottom: 30px;
     }
+    p {
+      font-family: $font-family;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
 }
 
 .model3 {
   background-color: $bg-white-color;
- 
-  .contenedor-a{
+
+  .contenedor-a {
     padding: 150px 30px 60px;
     color: $font-tertiary-color;
     h2 {
@@ -86,8 +85,49 @@
       text-transform: uppercase;
     }
   }
-  .contenedor-b{
+  .contenedor-b {
     padding: 60px 30px;
+  }
+}
+
+.model4 {
+  background-color: $bg-white-color;
+  padding: 60px 25px;
+  .contenido-texto {
+    padding: 40px 0px 40px 0px;
+    color: $font-tertiary-color;
+    h2 {
+      font-family: $font-family;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-family: $font-family;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  form {
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ffffff;
+      border-radius: 0px;
+      font-size: 16px;
+      background-color: transparent;
+      color: $font-tertiary-color;
+    }
+    input:focus,
+    textarea:focus {
+      color: #FFF;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-color: $bg-secondary-color;
+      box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.1);
+    }
   }
   
 }

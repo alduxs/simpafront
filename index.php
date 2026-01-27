@@ -257,7 +257,7 @@ include_once('config/constantes.inc.php');
                 </div>
             </div>
 
-            <div class="contenedor-b" >
+            <div class="contenedor-b">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -273,7 +273,7 @@ include_once('config/constantes.inc.php');
                     </div>
                 </div>
             </div>
-        
+
 
         </section>
         <!-- Fin Seccion 7-->
@@ -302,7 +302,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    
+
 
 
                 </div>
@@ -329,12 +329,12 @@ include_once('config/constantes.inc.php');
                             <li><img src="assets/img/tilde.png" alt="Icono">Asegurar <strong>compatibilidad, instalación y soporte técnico</strong> para que el equipo funcione sin inconvenientes.</li>
                         </ul>
                         <p>De esta forma, <strong>acompañamos a cada cliente</strong> en el proceso completo, brindando soluciones a medida y la tranquilidad de contar con un respaldo profesional en cada etapa.</p>
-                        
+
                     </div>
 
                     <div class="col-12">
                         <img src="assets/img/que-es-mercancia-aduana.jpg" alt="" class="img-fluid shadow-box border-color-secondary rounded30">
-                        
+
                     </div>
 
 
@@ -352,9 +352,9 @@ include_once('config/constantes.inc.php');
                     <div class="col-12">
 
                         <h2>NUESTROS PRODUCTOS</h2>
-                        <p>Amplia gama de equipo diseñados para ajustarse a las necesidades de cada negocio  y optimizar al máximo la producción.</p>
-                        
-                        
+                        <p>Amplia gama de equipo diseñados para ajustarse a las necesidades de cada negocio y optimizar al máximo la producción.</p>
+
+
                     </div>
 
                     <div class="col-12">
@@ -365,7 +365,7 @@ include_once('config/constantes.inc.php');
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="col-12">
@@ -376,7 +376,7 @@ include_once('config/constantes.inc.php');
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="col-12">
@@ -387,7 +387,7 @@ include_once('config/constantes.inc.php');
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="col-12">
@@ -398,7 +398,7 @@ include_once('config/constantes.inc.php');
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
                         </div>
-                        
+
                     </div>
 
 
@@ -407,8 +407,98 @@ include_once('config/constantes.inc.php');
         </section>
         <!-- Fin Seccion 10-->
 
+        <!--Seccion 11-->
+        <section class="model22 " style="background-image: url('assets/img/bgrd-empresa.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <div class="contenido-texto">
+                            <h2>LA EMPRESA</h2>
+                            <p>Con <strong>50</strong> años de permanencia en el mercado Simpa es sinónimo de robustez, sencillez operativa y productividad. </p>
+                            <p>Estas características han sido premiadas con el sostenido reconocimiento del exigente mercado de la industria del pan y los equipos SIMPA han ganado un sólido prestigio.</p>
+                            <p>El contacto permanente con el usuario, ha permitido una evolución sostenida de cada equipo. Respetando diseños básicos, se han desarrollado equipos de alta producción que logran productos finales perfectamente terminados de excelente calidad.</p>
+                            <p>El pan y otros productos de la industria panadera, han evolucionado en componentes, formas y gustos y <strong>SIMPA</strong> ha sabido interpretar y volcar estas demandas en sus equipos.Tanto en funciones como productividad, todos nuestros equipos han aumentado su rendimiento y versatilidad.</p>
+                            <p><strong>SIMPA IBEROAMERICANA</strong> pone a disposición del mercado latinoamericano una amplia gama de productos para la industria del pan. En este sitio encontrará un equipamiento apropiado a cada requerimiento. </p>
+                            <p>Contamos además con un soporte técnico y asesoramiento de pre y post venta a fin de lograr la total satisfacción de nuestros usuario</p>
+
+                        </div>
+
+                    </div>
+
+                    <civ class="col-12">
+                        <div id="map"></div>
+                    </civ>
 
 
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 11-->
+
+        <!--Seccion 12-->
+        <section class="model4 " style="background-image: url('assets/img/bgrd-empresa.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12">
+                        <div class="contenido-texto">
+                            <h2>CONTACTO</h2>
+                            <form action="">
+
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre y Apellido</label>
+                                    <input type="text" name="nombre" class="form-control" id="nombre"">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="localidad" class="form-label">Localidad</label>
+                                    <input type="text" name="localidad" class="form-control" id="localidad">
+                                </div>
+
+                                 <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="email" class="form-control" id="email">
+                                </div>
+
+                                 <div class="mb-3">
+                                    <label for="telefono" class="form-label">Teléfono</label>
+                                    <input type="text" name="telefono" class="form-control" id="telefono">
+                                </div>
+
+                                 <div class="mb-3">
+                                    <label for="asunto" class="form-label">Asunto</label>
+                                    <input type="text" name="asunto" class="form-control" id="asunto">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="consulta" class="form-label">Consulta</label>
+                                    <textarea class="form-control" id="consulta" rows="3" name="consulta"></textarea>
+                                </div>
+
+                                <p class="text-end"><button type="submit" class="link-buton">Enviar</button></p>
+
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div id="map2"></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Fin Seccion 12-->
 
     </main>
 

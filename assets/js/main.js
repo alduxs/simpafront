@@ -214,6 +214,23 @@ function initMap() {
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set("styled_map", styledMapType);
   map.setMapTypeId("styled_map");
+
+  //MAPA 2
+
+  var map2 = new google.maps.Map(document.getElementById("map2"), {
+    center: myLatLng,
+    zoom: 15,
+    disableDefaultUI: true,
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map2,
+  });
+
+  //Associate the styled map with the MapTypeId and set it to display.
+  map2.mapTypes.set("styled_map", styledMapType);
+  map2.setMapTypeId("styled_map");
 }
 
 btnHamburger.addEventListener("click", function () {
