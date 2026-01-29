@@ -126,40 +126,40 @@
     height: 100svh;
     z-index: 1000;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 0px 25px;
-    .isotipo {
-      width: 50px;
-      height: auto;
-      margin-bottom: 20px;
-      img {
+    background-size: cover;
+    .contenido {
+      width: 100%;
+      padding: 0px 25px;
+      .isotipo {
         width: 100%;
         height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        img {
+          width: 50px;
+          height: auto;
+        }
       }
-    }
-    h1 {
-      color: $font-secondary-color;
-      font-size: 2.2rem;
-      text-align: center;
-      margin-bottom: 15px;
-      font-weight: 700;
-    }
-    p {
-      color: $font-secondary-color;
-      font-size: 1rem;
-      text-align: center;
-      margin-bottom: 10px;
-      a {
+      h1 {
         color: $font-secondary-color;
-        &:hover {
-          color: lighten($font-secondary-color, 10%);
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+      p {
+        color: $font-secondary-color;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 10px;
+        a {
+          color: $font-secondary-color;
+          &:hover {
+            color: lighten($font-secondary-color, 10%);
+          }
         }
       }
     }
   }
-
-  
 }

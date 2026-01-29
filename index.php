@@ -50,13 +50,15 @@ include_once('config/constantes.inc.php');
         <?php include_once('includes/top-navigation.php'); ?>
 
         <div class="contenedor-slide" id="contenedor-slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;background-position: center;">
-
-            <div class="isotipo">
-                <img src="assets/img/isotipo.png" alt="">
+            <div class="contenido">
+                <div class="isotipo">
+                    <img src="assets/img/isotipo.png" alt="">
+                </div>
+                <h1>Somos la <span class="color-orange">evolución </span> en la historia del pan</h1>
+                <p>Con más de 50 años de prestigio en el mercado</p>
+                <p><a href="#" class="link-buton">Nuestra Empresa</a></p>
             </div>
-            <h1>Somos la <span class="color-orange">evolución </span> en la historia del pan</h1>
-            <p>Con más de 50 años de prestigio en el mercado</p>
-            <p><a href="#" class="link-buton">Nuestra Empresa</a></p>
+
 
         </div>
 
@@ -456,22 +458,22 @@ include_once('config/constantes.inc.php');
                                     <input type="text" name="nombre" class="form-control" id="nombre"">
                                 </div>
 
-                                <div class="mb-3">
+                                <div class=" mb-3">
                                     <label for="localidad" class="form-label">Localidad</label>
                                     <input type="text" name="localidad" class="form-control" id="localidad">
                                 </div>
 
-                                 <div class="mb-3">
+                                <div class="mb-3">
                                     <label for="email" class="form-label">Email</label>
                                     <input type="email" name="email" class="form-control" id="email">
                                 </div>
 
-                                 <div class="mb-3">
+                                <div class="mb-3">
                                     <label for="telefono" class="form-label">Teléfono</label>
                                     <input type="text" name="telefono" class="form-control" id="telefono">
                                 </div>
 
-                                 <div class="mb-3">
+                                <div class="mb-3">
                                     <label for="asunto" class="form-label">Asunto</label>
                                     <input type="text" name="asunto" class="form-control" id="asunto">
                                 </div>
