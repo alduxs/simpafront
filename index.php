@@ -54,7 +54,7 @@ include_once('config/constantes.inc.php');
             <div class="isotipo">
                 <img src="assets/img/isotipo.png" alt="">
             </div>
-            <h1>Somos la evolución en la historia del pan</h1>
+            <h1>Somos la <span class="color-orange">evolución </span> en la historia del pan</h1>
             <p>Con más de 50 años de prestigio en el mercado</p>
             <p><a href="#" class="link-buton">Nuestra Empresa</a></p>
 
@@ -211,7 +211,7 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 5-->
 
         <!--Seccion 6-->
-        <section class="model1" style="background-image: url('assets/img/logo-fondo-linea.png');background-repeat: no-repeat;background-position: left center;">
+        <section class="model1b" style="background-image: url('assets/img/logo-fondo-linea.png');background-repeat: no-repeat;background-position: left center;">
             <div class="container">
 
                 <div class="row">
@@ -313,12 +313,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 8-->
 
         <!--Seccion 9-->
-        <section class="model1" style="background-image: url('assets/img/fondo-logo-gris.-big.png');background-repeat: no-repeat;background-position: right center;">
+        <section class="model1b" style="background-image: url('assets/img/fondo-logo-gris.-big.png');background-repeat: no-repeat;background-position: right center;">
             <div class="container">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 separacion-2-columnas">
 
                         <h2>SERVICIO DE IMPORTACIÓN</h2>
                         <p>Ofrecemos a nuestros distribuidores un <strong>servicio especializado de logística</strong>, pensado para aquellas empresas que necesitan <strong>equipos específicos</strong> que no se encuentran fácilmente en el mercado local.</p>
@@ -344,7 +344,7 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 9-->
 
         <!--Seccion 10-->
-        <section class="model1" style="background-image: url('assets/img/degradado-gris.png');background-repeat: no-repeat;background-position: right center;">
+        <section class="model1b" style="background-image: url('assets/img/degradado-gris.png');background-repeat: no-repeat;background-position: right center;">
             <div class="container">
 
                 <div class="row">
@@ -369,9 +369,9 @@ include_once('config/constantes.inc.php');
                     </div>
 
                     <div class="col-12">
-                        <h3>AMASADORAS</h3>
+                        <h3>BATIDORAS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
                             <div class="card-body">
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
@@ -380,9 +380,9 @@ include_once('config/constantes.inc.php');
                     </div>
 
                     <div class="col-12">
-                        <h3>AMASADORAS</h3>
+                        <h3>MÁQUINAS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
                             <div class="card-body">
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
@@ -391,9 +391,9 @@ include_once('config/constantes.inc.php');
                     </div>
 
                     <div class="col-12">
-                        <h3>AMASADORAS</h3>
+                        <h3>HORNOS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                            <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
                             <div class="card-body">
                                 <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
@@ -503,6 +503,9 @@ include_once('config/constantes.inc.php');
     </main>
 
     <?php include_once('includes/footer.php'); ?>
+
+    <!-- Whatsapp -->
+    <?php include("includes/what.php"); ?>
 
     <!-- BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

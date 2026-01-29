@@ -1,8 +1,8 @@
 .model1 {
-  background-color: $bg-white-color;
+  background-color: $bg-primary-color;
   padding: 60px 25px;
   .contenido {
-    background-color: $bg-white-color;
+    background-color: $bg-primary-color;
     display: flex;
     flex-direction: column;
     .contenido-texto {
@@ -27,14 +27,48 @@
       padding: 30px;
     }
   }
+  h2 {
+      font-family: $font-family;
+      color: $font-primary-color;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    h3 {
+      font-family: $font-family;
+      color: $font-primary-color;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+}
+
+.model1b {
+  background-color: $bg-primary-color;
+  padding: 60px 25px;
+  
+  h2 {
+      font-family: $font-family;
+      color: $font-primary-color;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    h3 {
+      font-family: $font-family;
+      color: $font-primary-color;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
 }
 
 .model2 {
-  background-color: $bg-white-color;
+  background-color: $bg-primary-color;
   padding: 60px 25px;
   .contenido-texto {
     padding: 40px 40px 40px 40px;
-    color: $font-tertiary-color;
+    color: $font-secondary-color;
     h2 {
       font-family: $font-family;
       font-size: 30px;
@@ -52,11 +86,11 @@
 }
 
 .model22 {
-  background-color: $bg-white-color;
+  background-color: $bg-primary-color;
   padding: 60px 25px;
   .contenido-texto {
     padding: 40px 0px 40px 0px;
-    color: $font-tertiary-color;
+    color: $font-secondary-color;
     h2 {
       font-family: $font-family;
       font-size: 30px;
@@ -73,11 +107,11 @@
 }
 
 .model3 {
-  background-color: $bg-white-color;
+  background-color: $bg-primary-color;
 
   .contenedor-a {
     padding: 150px 30px 60px;
-    color: $font-tertiary-color;
+    color: $font-secondary-color;
     h2 {
       font-size: 30px;
       font-weight: 700;
@@ -91,11 +125,11 @@
 }
 
 .model4 {
-  background-color: $bg-white-color;
+  background-color: $bg-primary-color;
   padding: 60px 25px;
   .contenido-texto {
     padding: 40px 0px 40px 0px;
-    color: $font-tertiary-color;
+    color: $font-secondary-color;
     h2 {
       font-family: $font-family;
       font-size: 30px;
@@ -119,7 +153,7 @@
       border-radius: 0px;
       font-size: 16px;
       background-color: transparent;
-      color: $font-tertiary-color;
+      color: $font-secondary-color;
     }
     input:focus,
     textarea:focus {

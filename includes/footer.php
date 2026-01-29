@@ -4,7 +4,7 @@
         <div class="row">
 
             <div class="col-12 separacion-2-columnas">
-                <p><img src="assets/img/logo.png" alt="" class="logo-footer"></p>
+                <p><img src="assets/img/logo-footer-blanco.svg" alt="" class="logo-footer"></p>
                 <p>Simpa Iberoamericana S.A.</p>
 
             </div>
