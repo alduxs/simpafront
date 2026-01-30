@@ -39,26 +39,35 @@
         width: 58%;
         padding: 0px 0px 0px 100px;
         .isotipo {
-         
           text-align: start;
-          
         }
         h1 {
-        
           font-size: 2.4rem;
           text-align: start;
-         
         }
         p {
-          
           text-align: start;
-     
         }
       }
     }
   }
-
   .btn11 {
     @include btn(20px, 38px);
+  }
+
+  .model1 {
+    
+    .contenido {
+
+      flex-direction: row;
+      .contenido-imagen {
+        width: 50%;
+        height: auto;
+      }
+      .contenido-texto {
+        width: 50%;
+      }
+    }
+
   }
 }

@@ -5,8 +5,14 @@
     background-color: $bg-primary-color;
     display: flex;
     flex-direction: column;
+    .contenido-imagen {
+      height: 300px;
+      background-position: center;
+      background-size: cover;
+    }
     .contenido-texto {
       padding: 40px 40px 80px 40px;
+      width: auto;
       h2 {
         font-family: $font-family;
         color: $font-primary-color;
@@ -28,39 +34,39 @@
     }
   }
   h2 {
-      font-family: $font-family;
-      color: $font-primary-color;
-      font-size: 25px;
-      font-weight: 700;
-      margin-bottom: 15px;
-    }
-    h3 {
-      font-family: $font-family;
-      color: $font-primary-color;
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 15px;
-    }
+    font-family: $font-family;
+    color: $font-primary-color;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-family: $font-family;
+    color: $font-primary-color;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
 }
 
 .model1b {
   background-color: $bg-primary-color;
   padding: 60px 25px;
-  
+
   h2 {
-      font-family: $font-family;
-      color: $font-primary-color;
-      font-size: 25px;
-      font-weight: 700;
-      margin-bottom: 15px;
-    }
-    h3 {
-      font-family: $font-family;
-      color: $font-primary-color;
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 15px;
-    }
+    font-family: $font-family;
+    color: $font-primary-color;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-family: $font-family;
+    color: $font-primary-color;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
 }
 
 .model2 {
@@ -157,11 +163,10 @@
     }
     input:focus,
     textarea:focus {
-      color: #FFF;
+      color: #fff;
       background-color: rgba(255, 255, 255, 0.3);
       border-color: $bg-secondary-color;
-      box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
     }
   }
-  
 }

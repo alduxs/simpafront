@@ -76,8 +76,8 @@ include_once('config/constantes.inc.php');
                     <div class="col-12">
 
                         <div class="contenido shadow-box logo-gris">
-                            <div class="contenido-imagen">
-                                <img src="assets/img/batidora.jpg" alt="" class="img-fluid">
+                            <div class="contenido-imagen" style="background-image: url('assets/img/batidora.jpg');">
+                                <!--<img src="assets/img/batidora.jpg" alt="" class="img-fluid">-->
                             </div>
                             <div class="contenido-texto">
                                 <h2>Garantizamos productos de alta calidad, gran robustez y productividad</h2>
@@ -98,12 +98,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 1-->
 
         <!--Seccion 2-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd01.jpg');background-repeat: no-repeat;background-position: left center;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd01.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
 
                         <div class="contenido-texto">
                             <h2>Panificación</h2>
@@ -114,7 +114,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
                     </div>
 
@@ -128,12 +128,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 2-->
 
         <!--Seccion 3-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd02.jpg');background-repeat: no-repeat;background-position: left center;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd02.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
 
                         <div class="contenido-texto">
                             <h2>LAMINADOS</h2>
@@ -143,7 +143,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
                     </div>
 
@@ -157,12 +157,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 3-->
 
         <!--Seccion 4-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd03.jpg');background-repeat: no-repeat;background-position: left center;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd03.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
 
                         <div class="contenido-texto">
                             <h2>PASTELERÍA</h2>
@@ -171,7 +171,7 @@ include_once('config/constantes.inc.php');
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <img src="assets/img/maquina-contorno03.png" alt="" class="img-fluid">
                     </div>
 
@@ -185,12 +185,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 4-->
 
         <!--Seccion 5-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd04.jpg');background-repeat: no-repeat;background-position: left center;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd04.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
 
                         <div class="contenido-texto">
                             <h2>MASAS Y PRECOCIDOS</h2>
@@ -200,7 +200,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <img src="assets/img/maquina-contorno04.png" alt="" class="img-fluid">
                     </div>
 
@@ -218,7 +218,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
 
                         <div class="card shadow-box separacion-2-columnas border-color-secondary" style="border-radius: 0;">
                             <img src="assets/img/preventa.jpg" class="card-img-top" style="border-radius: 0;">
@@ -229,7 +229,7 @@ include_once('config/constantes.inc.php');
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
 
                         <div class="card shadow-box border-color-secondary" style="border-radius: 0;">
                             <img src="assets/img/postventa.jpg" class="card-img-top" style="border-radius: 0;">
@@ -248,7 +248,7 @@ include_once('config/constantes.inc.php');
 
         <!--Seccion 7-->
         <section class="model3">
-            <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat;background-position: center top;">
+            <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat;background-position: center top; background-size: cover;">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -320,7 +320,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 separacion-2-columnas">
+                    <div class="col-12 col-md-6 separacion-2-columnas">
 
                         <h2>SERVICIO DE IMPORTACIÓN</h2>
                         <p>Ofrecemos a nuestros distribuidores un <strong>servicio especializado de logística</strong>, pensado para aquellas empresas que necesitan <strong>equipos específicos</strong> que no se encuentran fácilmente en el mercado local.</p>
@@ -334,7 +334,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <img src="assets/img/que-es-mercancia-aduana.jpg" alt="" class="img-fluid shadow-box border-color-secondary rounded30">
 
                     </div>
@@ -359,7 +359,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <h3>AMASADORAS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                             <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
@@ -370,7 +370,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <h3>BATIDORAS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                             <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
@@ -381,7 +381,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <h3>MÁQUINAS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                             <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
@@ -392,7 +392,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-6">
                         <h3>HORNOS</h3>
                         <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                             <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">

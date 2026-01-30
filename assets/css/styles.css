@@ -475,8 +475,14 @@ footer ul i {
   display: flex;
   flex-direction: column;
 }
+.model1 .contenido .contenido-imagen {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
 .model1 .contenido .contenido-texto {
   padding: 40px 40px 80px 40px;
+  width: auto;
 }
 .model1 .contenido .contenido-texto h2 {
   font-family: "Roboto", serif;
@@ -621,7 +627,7 @@ footer ul i {
 }
 .model4 form input:focus,
 .model4 form textarea:focus {
-  color: #FFF;
+  color: #fff;
   background-color: rgba(255, 255, 255, 0.3);
   border-color: #bf8d00;
   box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
@@ -699,6 +705,16 @@ $font-link-color-grey: #575757;
     top: 38px;
     right: 20px;
     transition-duration: 0.5s;
+  }
+  .model1 .contenido {
+    flex-direction: row;
+  }
+  .model1 .contenido .contenido-imagen {
+    width: 50%;
+    height: auto;
+  }
+  .model1 .contenido .contenido-texto {
+    width: 50%;
   }
 }
 
