@@ -18,7 +18,6 @@ $font-link-color-grey: #575757;
 */
 /* Font colors */
 /* Colors */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,13 +25,55 @@ $font-link-color-grey: #575757;
 }
 
 body {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Regular", serif;
   font-optical-sizing: auto;
   background-color: #fff;
   position: relative;
 }
 
 /* Tipografía */
+/* Ligth Weight */
+@font-face {
+  font-family: "Airbnb Light";
+  src: url("../../assets/fonts/airbnb-light.woff") format("woff"), url("../../assets/fonts/airbnb-light.woff2") format("woff2"), url("../../assets/fonts/airbnb-light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+/* Regular Weight */
+@font-face {
+  font-family: "Airbnb Regular";
+  src: url("../../assets/fonts/airbnb-book.woff") format("woff"), url("../../assets/fonts/airbnb-book.woff2") format("woff2"), url("../../assets/fonts/airbnb-book.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+/* Medium Weight */
+@font-face {
+  font-family: "Airbnb Medium";
+  src: url("../../assets/fonts/airbnb-medium.woff") format("woff"), url("../../assets/fonts/airbnb-medium.woff2") format("woff2"), url("../../assets/fonts/airbnb-medium.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+}
+/* Bold Weight */
+@font-face {
+  font-family: "Airbnb Bold";
+  src: url("../../assets/fonts/airbnb-bold.woff") format("woff"), url("../../assets/fonts/airbnb-bold.woff2") format("woff2"), url("../../assets/fonts/airbnb-bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+/* Extra Bold Weight */
+@font-face {
+  font-family: "Airbnb Extra Bold";
+  src: url("../../assets/fonts/airbnb-extrabold.woff") format("woff"), url("../../assets/fonts/airbnb-extrabold.woff2") format("woff2"), url("../../assets/fonts/airbnb-extrabold.otf") format("otf");
+  font-weight: 800;
+  font-style: normal;
+}
+/* Extra Black Weight */
+@font-face {
+  font-family: "Airbnb Black";
+  src: url("../../assets/fonts/airbnb-black.woff") format("woff"), url("../../assets/fonts/airbnb-black.woff2") format("woff2"), url("../../assets/fonts/airbnb-black.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+}
 /* Variables */
 /*
 $bg-primary-color: #fcfcfc;
@@ -180,7 +221,7 @@ $font-link-color-grey: #575757;
 .logo-gris {
   background-image: url("../img/logo-gris.png");
   background-repeat: no-repeat;
-  background-position: 95% 97%;
+  background-position: 90% 95%;
   background-size: 35px;
 }
 
@@ -298,9 +339,9 @@ $font-link-color-grey: #575757;
 }
 .header-home .top-navigation .menu ul a {
   color: #606060;
+  font-family: "Airbnb Medium", serif;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 10px 15px;
   text-transform: uppercase;
   display: inline-block;
@@ -382,6 +423,7 @@ $font-link-color-grey: #575757;
   display: flex;
   align-items: center;
   background-size: cover;
+  font-family: "Airbnb Regular", serif;
 }
 .header-home .contenedor-slide .contenido {
   width: 100%;
@@ -399,10 +441,10 @@ $font-link-color-grey: #575757;
 }
 .header-home .contenedor-slide .contenido h1 {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   margin-bottom: 15px;
-  font-weight: 700;
+  font-family: "Airbnb Bold", serif;
 }
 .header-home .contenedor-slide .contenido p {
   color: #ffffff;
@@ -463,6 +505,10 @@ footer ul i {
   margin-top: 0px;
   opacity: 0.7;
 }
+footer .seguinos {
+  padding-left: 15px;
+  border-left: 0px solid #fff;
+}
 
 /* PAGINAS */
 /* Home */
@@ -477,38 +523,36 @@ footer ul i {
 }
 .model1 .contenido .contenido-imagen {
   height: 300px;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
 }
 .model1 .contenido .contenido-texto {
-  padding: 40px 40px 80px 40px;
+  padding: 60px 60px 80px 60px;
   width: auto;
 }
 .model1 .contenido .contenido-texto h2 {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Medium", serif;
   color: #606060;
-  font-size: 25px;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 15px;
+  line-height: normal;
 }
 .model1 .contenido .contenido-texto p {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Regular", serif;
   color: #606060;
   font-size: 16px;
   line-height: 1.5;
 }
-.model1 .card .card-body {
-  padding: 30px;
-}
 .model1 h2 {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Regular", serif;
   color: #606060;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 .model1 h3 {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Regular", serif;
   color: #606060;
   font-size: 18px;
   font-weight: 600;
@@ -519,18 +563,24 @@ footer ul i {
   background-color: #fff;
   padding: 60px 25px;
 }
+.model1b .card .card-body {
+  padding: 30px;
+}
+.model1b .card .card-body .card-title {
+  font-family: "Airbnb Medium", serif;
+  font-size: 1.1rem;
+  line-height: normal;
+}
 .model1b h2 {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Medium", serif;
   color: #606060;
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 1.3rem;
   margin-bottom: 15px;
 }
 .model1b h3 {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Medium", serif;
   color: #606060;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 1.2rem;
   margin-bottom: 15px;
 }
 
@@ -543,21 +593,22 @@ footer ul i {
   color: #ffffff;
 }
 .model2 .contenido-texto h2 {
-  font-family: "Roboto", serif;
-  font-size: 30px;
+  font-family: "Airbnb Medium", serif;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 .model2 .contenido-texto p {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Regular", serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .model22 {
   background-color: #fff;
+  background-size: auto 101%;
   padding: 60px 25px;
 }
 .model22 .contenido-texto {
@@ -565,15 +616,14 @@ footer ul i {
   color: #ffffff;
 }
 .model22 .contenido-texto h2 {
-  font-family: "Roboto", serif;
-  font-size: 30px;
-  font-weight: 700;
+  font-family: "Airbnb Medium", serif;
+  font-size: 1.2rem;
   margin-bottom: 15px;
   margin-bottom: 30px;
+  line-height: normal;
 }
 .model22 .contenido-texto p {
-  font-family: "Roboto", serif;
-  font-size: 16px;
+  font-family: "Airbnb Regular", serif;
   line-height: 1.5;
 }
 
@@ -581,12 +631,13 @@ footer ul i {
   background-color: #fff;
 }
 .model3 .contenedor-a {
-  padding: 150px 30px 60px;
+  padding: 140px 30px 140px;
   color: #ffffff;
+  background-position: center bottom;
 }
 .model3 .contenedor-a h2 {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Airbnb Medium", serif;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
@@ -596,6 +647,7 @@ footer ul i {
 
 .model4 {
   background-color: #fff;
+  background-size: auto 101%;
   padding: 60px 25px;
 }
 .model4 .contenido-texto {
@@ -603,14 +655,13 @@ footer ul i {
   color: #ffffff;
 }
 .model4 .contenido-texto h2 {
-  font-family: "Roboto", serif;
-  font-size: 30px;
-  font-weight: 700;
+  font-family: "Airbnb Medium", serif;
+  font-size: 1.2rem;
   margin-bottom: 15px;
   margin-bottom: 30px;
 }
 .model4 .contenido-texto p {
-  font-family: "Roboto", serif;
+  font-family: "Airbnb Regular", serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -685,18 +736,19 @@ $font-link-color-grey: #575757;
     background-size: cover;
   }
   .header-home .contenedor-slide .contenido {
-    width: 58%;
+    width: 68%;
     padding: 0px 0px 0px 100px;
   }
   .header-home .contenedor-slide .contenido .isotipo {
     text-align: start;
   }
   .header-home .contenedor-slide .contenido h1 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     text-align: start;
   }
   .header-home .contenedor-slide .contenido p {
     text-align: start;
+    font-size: 1.3rem;
   }
   .btn11 {
     position: absolute;
@@ -715,6 +767,187 @@ $font-link-color-grey: #575757;
   }
   .model1 .contenido .contenido-texto {
     width: 50%;
+  }
+  .model1 .contenido .contenido-texto h2 {
+    font-size: 1.3rem;
+  }
+  .model1b .card .card-body .card-title {
+    font-size: 1.2rem;
+  }
+  .model1b h2 {
+    font-size: 1.3rem;
+  }
+  .model1b h3 {
+    font-size: 1.2rem;
+  }
+  .model2 .contenido-texto h2 {
+    font-size: 1.6rem;
+  }
+  .model2 .contenido-texto p {
+    font-family: "Airbnb Regular", serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .model22 .contenido-texto h2 {
+    font-size: 1.3rem;
+  }
+  .model3 .contenedor-a h2 {
+    font-size: 1.6rem;
+  }
+  .model4 .contenido-texto h2 {
+    font-size: 1.3rem;
+  }
+  .logo-gris {
+    background-position: 95% 95%;
+  }
+}
+/*
+$bg-primary-color: #fcfcfc;
+$bg-primary-color-tr: rgba(255,255,255,0.9);
+$bg-secondary-color: #bf8d00;
+$bg-tertiary-color: #fdcf00;
+$bg-quaternary-color: #212121;
+$bg-quinary-color: #f7edc4;
+$bg-white-color: #fff;
+*/
+/* Font colors */
+/*
+$font-primary-color: #212121;
+$font-secondary-color: #014f25;
+$font-tertiary-color: #fff;
+$font-link-color-grey: #575757;
+*/
+/* Font colors */
+/* Colors */
+/* Media query para desktop */
+@media (min-width: 960px) {
+  .header-home .top-navigation {
+    padding: 20px 20px;
+    width: 960px;
+    display: grid;
+    grid-template-columns: 15% 60% 10% 10% 5%;
+  }
+  .header-home .top-navigation .logo {
+    order: 1;
+  }
+  .header-home .top-navigation .menu {
+    position: relative;
+    top: 0;
+    right: 0px;
+    height: auto;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2100;
+    transition: all 0.5s ease-in-out;
+    order: 2;
+  }
+  .header-home .top-navigation .menu ul li {
+    display: inline-block;
+  }
+  .header-home .top-navigation .menu ul a {
+    font-size: 0.95rem;
+    margin: 0 14px;
+  }
+  .header-home .top-navigation .fifty {
+    /* MOD */
+    display: flex;
+    order: 3;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-home .top-navigation .fifty img {
+    width: 60px;
+    height: auto;
+  }
+  .header-home .top-navigation .find {
+    order: 5;
+  }
+  .header-home .top-navigation .idiomatop {
+    order: 4;
+  }
+  .header-home .find-container-open {
+    top: 140px;
+  }
+  .header-home .contenedor-slide {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  .header-home .contenedor-slide .contenido {
+    width: 58%;
+    padding: 0px 0px 0px 100px;
+  }
+  .header-home .contenedor-slide .contenido .isotipo {
+    text-align: start;
+  }
+  .header-home .contenedor-slide .contenido h1 {
+    font-size: 3.5rem;
+    text-align: start;
+  }
+  .header-home .contenedor-slide .contenido p {
+    text-align: start;
+    font-size: 1.7rem;
+  }
+  .model1 .contenido .contenido-texto h2 {
+    font-size: 1.5rem;
+  }
+  .model1b .card .card-body .card-title {
+    font-size: 1.3rem;
+  }
+  .model1b h2 {
+    font-size: 1.7rem;
+  }
+  .model1b h3 {
+    font-size: 1.3rem;
+  }
+  .model2 .contenido-texto h2 {
+    font-size: 2rem;
+  }
+  .model2 .contenido-texto p {
+    font-family: "Airbnb Regular", serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .model22 {
+    background-size: cover;
+  }
+  .model22 .contenido-texto h2 {
+    font-size: 1.7rem;
+  }
+  .model3 .contenedor-a {
+    background-position: center bottom;
+    padding: 140px 30px 140px;
+  }
+  .model3 .contenedor-a h2 {
+    font-size: 2rem;
+  }
+  .model4 {
+    background-size: auto 101%;
+  }
+  .model4 .contenido-texto h2 {
+    font-size: 1.7rem;
+  }
+  .btn11 {
+    display: none;
+  }
+  .logo-gris {
+    background-position: 97% 92%;
+  }
+  footer .seguinos {
+    padding-left: 30px;
+    border-left: 1px solid #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .header-home .top-navigation {
+    width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .header-home .top-navigation {
+    width: 1320px;
   }
 }
 

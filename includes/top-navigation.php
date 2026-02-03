@@ -28,8 +28,8 @@
 
     <div class="idiomatop">
         <ul>
-            <li><a href="https://www.instagram.com/websailuminacion/" target="_blank"><img src="<?php echo _CONST_DOMINIO_ ?>assets/img/barg.png" alt="" class="img-fluid"></a></li>
-            <li><a href="https://www.instagram.com/websailuminacion/" target="_blank"><img src="<?php echo _CONST_DOMINIO_ ?>assets/img/bbra.png" alt="" class="img-fluid"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo _CONST_DOMINIO_ ?>assets/img/barg.png" alt="" class="img-fluid"></a></li>
+            <li><a href="#" target="_blank"><img src="<?php echo _CONST_DOMINIO_ ?>assets/img/bbra.png" alt="" class="img-fluid"></a></li>
         </ul>
     </div>
 

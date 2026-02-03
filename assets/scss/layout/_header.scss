@@ -36,9 +36,9 @@
         padding: 0;
         a {
           color: $font-primary-color;
+          font-family: $font-family-md;
           text-decoration: none;
-          font-weight: 500;
-          font-size: 1rem;
+          font-size: 1.1rem;
           margin: 10px 15px;
           text-transform: uppercase;
           display: inline-block;
@@ -128,6 +128,7 @@
     display: flex;
     align-items: center;
     background-size: cover;
+    font-family: $font-family;
     .contenido {
       width: 100%;
       padding: 0px 25px;
@@ -143,10 +144,10 @@
       }
       h1 {
         color: $font-secondary-color;
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
         margin-bottom: 15px;
-        font-weight: 700;
+        font-family: $font-family-b;
       }
       p {
         color: $font-secondary-color;

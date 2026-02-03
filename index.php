@@ -7,7 +7,7 @@ include_once('config/constantes.inc.php');
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Iluminación</title>
+    <title>Simpa Iberoamericana</title>
 
     <meta name="title" content="Simpa Iberoamericana" />
     <meta name="description" content="" />
@@ -54,7 +54,7 @@ include_once('config/constantes.inc.php');
                 <div class="isotipo">
                     <img src="assets/img/isotipo.png" alt="">
                 </div>
-                <h1>Somos la <span class="color-orange">evolución </span> en la historia del pan</h1>
+                <h1>Somos la <span class="color-orange">evolución </span><br>en la historia del pan</h1>
                 <p>Con más de 50 años de prestigio en el mercado</p>
                 <p><a href="#" class="link-buton">Nuestra Empresa</a></p>
             </div>
@@ -73,7 +73,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-lg-10 offset-lg-1">
 
                         <div class="contenido shadow-box logo-gris">
                             <div class="contenido-imagen" style="background-image: url('assets/img/batidora.jpg');">
@@ -98,12 +98,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 1-->
 
         <!--Seccion 2-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd01.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd01.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
                         <div class="contenido-texto">
                             <h2>Panificación</h2>
@@ -114,11 +114,9 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
                     </div>
-
-
 
                 </div>
 
@@ -128,12 +126,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 2-->
 
         <!--Seccion 3-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd02.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd02.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
                         <div class="contenido-texto">
                             <h2>LAMINADOS</h2>
@@ -143,11 +141,9 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <img src="assets/img/maquina-contorno01.png" alt="" class="img-fluid">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <img src="assets/img/maquina-contorno02.png" alt="" class="img-fluid">
                     </div>
-
-
 
                 </div>
 
@@ -157,12 +153,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 3-->
 
         <!--Seccion 4-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd03.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd03.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
                         <div class="contenido-texto">
                             <h2>PASTELERÍA</h2>
@@ -171,11 +167,9 @@ include_once('config/constantes.inc.php');
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <img src="assets/img/maquina-contorno03.png" alt="" class="img-fluid">
                     </div>
-
-
 
                 </div>
 
@@ -185,12 +179,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 4-->
 
         <!--Seccion 5-->
-        <section class="model2 " style="background-image: url('assets/img/bgrd04.jpg');background-repeat: no-repeat;background-position: left center;background-size: cover;">
+        <section class="model2 " style="background-image: url('assets/img/bgrd04.jpg');background-repeat: no-repeat;background-position: left center;">
             <div class="container logo-color">
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
                         <div class="contenido-texto">
                             <h2>MASAS Y PRECOCIDOS</h2>
@@ -200,10 +194,9 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <img src="assets/img/maquina-contorno04.png" alt="" class="img-fluid">
                     </div>
-
 
                 </div>
 
@@ -218,7 +211,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
                         <div class="card shadow-box separacion-2-columnas border-color-secondary" style="border-radius: 0;">
                             <img src="assets/img/preventa.jpg" class="card-img-top" style="border-radius: 0;">
@@ -229,7 +222,7 @@ include_once('config/constantes.inc.php');
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-5">
 
                         <div class="card shadow-box border-color-secondary" style="border-radius: 0;">
                             <img src="assets/img/postventa.jpg" class="card-img-top" style="border-radius: 0;">
@@ -248,10 +241,10 @@ include_once('config/constantes.inc.php');
 
         <!--Seccion 7-->
         <section class="model3">
-            <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat;background-position: center top; background-size: cover;">
+            <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat; background-size: cover;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 col-lg-10 offset-lg-1">
                             <h2>LABORATORIO</h2>
                             <p>Disponemos de un <strong>espacio</strong> exclusivo para que nuestros representantes puedan probar equipos industriales <strong>SIMPA</strong> en condiciones reales de trabajo y garantizar un óptimo rendimiento y la calidad buscada en el producto fina</p>
                         </div>
@@ -262,7 +255,7 @@ include_once('config/constantes.inc.php');
             <div class="contenedor-b">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 col-lg-10 offset-lg-1">
                             <p>Aquí podrás:</p>
                             <ul class="ultilde">
                                 <li><img src="assets/img/tilde.png" alt="Icono">Testear amasadoras, batidoras, hornos y más, con tus propias recetas o con las que te sugerimos.</li>
@@ -286,7 +279,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-lg-8 offset-lg-1">
 
                         <div class="contenido-texto">
                             <h2>¿Querés ampliar tu negocio con una línea de equipos industriales de alta calidad y gran demanda?</h2>
@@ -320,7 +313,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6 separacion-2-columnas">
+                    <div class="col-12 col-md-6 col-lg-7 offset-lg-1 separacion-2-columnas">
 
                         <h2>SERVICIO DE IMPORTACIÓN</h2>
                         <p>Ofrecemos a nuestros distribuidores un <strong>servicio especializado de logística</strong>, pensado para aquellas empresas que necesitan <strong>equipos específicos</strong> que no se encuentran fácilmente en el mercado local.</p>
@@ -334,7 +327,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-3">
                         <img src="assets/img/que-es-mercancia-aduana.jpg" alt="" class="img-fluid shadow-box border-color-secondary rounded30">
 
                     </div>
@@ -351,57 +344,65 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-lg-10 offset-lg-1">
 
                         <h2>NUESTROS PRODUCTOS</h2>
-                        <p>Amplia gama de equipo diseñados para ajustarse a las necesidades de cada negocio y optimizar al máximo la producción.</p>
+                        <p style="margin-bottom: 30px;">Amplia gama de equipo diseñados para ajustarse a las necesidades de cada negocio y optimizar al máximo la producción.</p>
 
 
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <h3>AMASADORAS</h3>
-                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
-                            <div class="card-body">
-                                <p><a href="#" class="link-buton-block">Ver más</a></p>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <div class="row">
+
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h3>AMASADORAS</h3>
+                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                    <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
+                                    <div class="card-body">
+                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
 
-                    </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h3>BATIDORAS</h3>
+                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                    <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
+                                    <div class="card-body">
+                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
+                                    </div>
+                                </div>
 
-                    <div class="col-12 col-md-6">
-                        <h3>BATIDORAS</h3>
-                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
-                            <div class="card-body">
-                                <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
-                        </div>
 
-                    </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h3>MÁQUINAS</h3>
+                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                    <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
+                                    <div class="card-body">
+                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
+                                    </div>
+                                </div>
 
-                    <div class="col-12 col-md-6">
-                        <h3>MÁQUINAS</h3>
-                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
-                            <div class="card-body">
-                                <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
-                        </div>
 
-                    </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <h3>HORNOS</h3>
+                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                    <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
+                                    <div class="card-body">
+                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
+                                    </div>
+                                </div>
 
-                    <div class="col-12 col-md-6">
-                        <h3>HORNOS</h3>
-                        <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                            <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
-                            <div class="card-body">
-                                <p><a href="#" class="link-buton-block">Ver más</a></p>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
+
+
 
 
                 </div>
@@ -410,12 +411,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 10-->
 
         <!--Seccion 11-->
-        <section class="model22 " style="background-image: url('assets/img/bgrd-empresa.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+        <section class="model22 " style="background-image: url('assets/img/bgrd-empresa.jpg');background-repeat: no-repeat;background-position: center center;">
             <div class="container">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
 
                         <div class="contenido-texto">
                             <h2>LA EMPRESA</h2>
@@ -430,7 +431,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <civ class="col-12">
+                    <civ class="col-12 col-md-4 col-lg-4">
                         <div id="map"></div>
                     </civ>
 
@@ -443,12 +444,12 @@ include_once('config/constantes.inc.php');
         <!-- Fin Seccion 11-->
 
         <!--Seccion 12-->
-        <section class="model4 " style="background-image: url('assets/img/bgrd-empresa.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+        <section class="model4 " style="background-image: url('assets/img/bgrd-contacto.jpg');background-repeat: no-repeat;background-position: center center;">
             <div class="container">
 
                 <div class="row">
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <div class="contenido-texto">
                             <h2>CONTACTO</h2>
                             <form action="">
@@ -490,7 +491,7 @@ include_once('config/constantes.inc.php');
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <div id="map2"></div>
                     </div>
 

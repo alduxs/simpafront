@@ -36,17 +36,18 @@
       align-items: center;
       background-size: cover;
       .contenido {
-        width: 58%;
+        width: 68%;
         padding: 0px 0px 0px 100px;
         .isotipo {
           text-align: start;
         }
         h1 {
-          font-size: 2.4rem;
+          font-size: 2.8rem;
           text-align: start;
         }
         p {
           text-align: start;
+          font-size: 1.3rem;
         }
       }
     }
@@ -66,8 +67,74 @@
       }
       .contenido-texto {
         width: 50%;
+        h2{
+          font-size: 1.3rem;
+        }
       }
     }
 
+  }
+
+  .model1b {
+    .card {
+      .card-body {
+        .card-title {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    h2 {
+      font-size: 1.3rem;
+    }
+    h3 {
+      font-size: 1.2rem ;
+    }
+  }
+
+  .model2 {
+    
+    .contenido-texto {
+      
+      h2 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-family: $font-family;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .model22 {
+    .contenido-texto {
+      h2 {
+        font-size: 1.3rem;
+      }
+    
+    }
+  }
+
+  .model3 {
+    .contenedor-a {
+      h2 {
+        font-size:1.6rem;
+      }
+    }
+  }
+
+  .model4 {
+   
+    .contenido-texto {
+      
+      h2 {
+        font-size:1.3rem;
+      }
+     
+    }
+  }
+
+  .logo-gris {
+    background-position: 95% 95%;
   }
 }
