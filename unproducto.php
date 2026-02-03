@@ -54,6 +54,55 @@ include_once('config/constantes.inc.php');
     <main>
 
 
+        <section class="section-unproducto">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-12 col-lg-10 offset-lg-1">
+                        <p> <a href="#" class="back"><i class="fa-solid fa-chevron-left"></i> Volver</a> </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+                        <div class="imagenes">
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/med/imagen-thumb-test-03.png');">
+
+                            </div>
+                            <div class="imagen-thumbs">
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/imagen-thumb-test-01.png');"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/imagen-thumb-test-02.png');"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/imagen-thumb-test-03.png');"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="texto">
+                            <h1>RAPIDA DIGITAL WDHS-60A</h1>
+                            <p>Rápida a espiral</p>
+                            <p>Capacidad de harina: 25 kg</p>
+                            <p>Tiempo de amasado (pan) 12-18 min</p>
+                            <p>Tablero de comando DIGITAL PROGRAMABLE con 2 Temporizadores</p>
+                            <p>Dos velocidades</p>
+                            <p>Retroceso</p>
+                            <p>Velocidad de agitador: 125/250 rpm</p>
+                            <p>Velocidad de batea: 12/25 rpm</p>
+                            <p>Batea y espiral de acero inoxidable.</p>
+                            <p>Rejilla de protección y switch de parada.</p>
+                            <p>Potencia: 3 hp</p>
+                            <p>Voltaje: 380 V / 50 Hz - trifásica.</p>
+                            <p>Dimensiones: 88 x 53 x 92 cm</p>
+                            <p>Peso: 178 kg</p>
+                            <p style="margin-top: 30px;"><a href="#" class="btn-accion">Ficha técnica</a><a href="#" class="btn-accion">Manual</a></p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </section>
+
         <!--Seccion 10-->
         <section class="section-productos">
             <div class="container">
@@ -66,11 +115,11 @@ include_once('config/constantes.inc.php');
                         <div class="row">
 
                             <div class="col-12">
-                                <h2>AMASADORAS</h2>
+                                <h2>RELACIONADOS</h2>
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -79,7 +128,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -88,7 +137,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4 ">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -97,7 +146,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4 ">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -109,165 +158,6 @@ include_once('config/constantes.inc.php');
 
                         </div>
 
-                        <!-- BATIDORAS -->
-                        <div class="row">
-
-                            <div class="col-12">
-                                <h2>BATIDORAS</h2>
-                            </div>
-
-                            
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-
-                        </div>
-
-                        <!-- MAQUINAS -->
-                        <div class="row">
-
-                            <div class="col-12">
-                                <h2>MÁQUINAS</h2>
-                            </div>
-
-                            
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-
-                        </div>
-
-                        <!-- HORNOS -->
-                        <div class="row">
-
-                            <div class="col-12">
-                                <h2>HORNOS</h2>
-                            </div>
-
-                            
-
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
-                                    <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
-                                    <div class="card-body">
-                                        <p><a href="#" class="link-buton-block">Ver más</a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            
-
-                        </div>
 
                     </div>
 

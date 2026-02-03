@@ -70,7 +70,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -79,7 +79,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -88,7 +88,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4 ">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -97,7 +97,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4 ">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -119,7 +119,7 @@ include_once('config/constantes.inc.php');
                             
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -129,7 +129,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -139,7 +139,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -149,7 +149,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -172,7 +172,7 @@ include_once('config/constantes.inc.php');
                             
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -182,7 +182,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -192,7 +192,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -202,7 +202,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -226,7 +226,7 @@ include_once('config/constantes.inc.php');
 
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -236,7 +236,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -246,7 +246,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>
@@ -256,7 +256,7 @@ include_once('config/constantes.inc.php');
                             </div>
 
                             <div class="col-6 col-md-4">
-                                <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
+                                <div class="card  separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
                                     <div class="card-body">
                                         <p><a href="#" class="link-buton-block">Ver más</a></p>

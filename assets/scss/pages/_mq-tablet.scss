@@ -57,9 +57,7 @@
   }
 
   .model1 {
-    
     .contenido {
-
       flex-direction: row;
       .contenido-imagen {
         width: 50%;
@@ -67,12 +65,11 @@
       }
       .contenido-texto {
         width: 50%;
-        h2{
+        h2 {
           font-size: 1.3rem;
         }
       }
     }
-
   }
 
   .model1b {
@@ -87,14 +84,12 @@
       font-size: 1.3rem;
     }
     h3 {
-      font-size: 1.2rem ;
+      font-size: 1.2rem;
     }
   }
 
   .model2 {
-    
     .contenido-texto {
-      
       h2 {
         font-size: 1.6rem;
       }
@@ -111,26 +106,22 @@
       h2 {
         font-size: 1.3rem;
       }
-    
     }
   }
 
   .model3 {
     .contenedor-a {
       h2 {
-        font-size:1.6rem;
+        font-size: 1.6rem;
       }
     }
   }
 
   .model4 {
-   
     .contenido-texto {
-      
       h2 {
-        font-size:1.3rem;
+        font-size: 1.3rem;
       }
-     
     }
   }
 
@@ -187,5 +178,16 @@
         }
       }
     }
+  }
+
+  /* UN PRODUCTO */
+  .section-unproducto {
+    .texto {
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+    
   }
 }

@@ -818,6 +818,70 @@ footer .seguinos {
   background-repeat: no-repeat;
   background-position: left bottom;
 }
+.section-productos .card {
+  border: 0px;
+}
+
+/* UN PRODUCTO */
+.section-unproducto {
+  padding: 60px 25px 60px;
+  background-image: url("../../assets/img/degradado-gris-inv.png");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: repeat-x;
+}
+.section-unproducto .imagenes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  position: relative;
+}
+.section-unproducto .imagenes .imagen-pincipal {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-unproducto .imagenes .imagen-thumbs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.section-unproducto .imagenes .imagen-thumbs .imagen-thumb {
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e8e8e8;
+  background-size: 80%;
+}
+.section-unproducto .texto {
+  padding: 30px 0px;
+  color: #606060;
+}
+.section-unproducto .texto h1 {
+  font-family: "Airbnb Bold", serif;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+.section-unproducto .btn-accion {
+  padding: 10px 20px;
+  border: 1px solid #bf8d00;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #fff;
+  color: #606060;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 15px;
+  display: inline;
+}
+.section-unproducto .btn-accion:hover {
+  background-color: #bf8d00;
+  color: #ffffff;
+}
+.section-unproducto .back {
+  color: #606060;
+}
 
 /* Madia Query Tablet */
 /*
@@ -980,6 +1044,10 @@ $font-link-color-grey: #575757;
   .header-home-int .contenedor-slide .contenido p {
     text-align: start;
     font-size: 1.3rem;
+  }
+  /* UN PRODUCTO */
+  .section-unproducto .texto h1 {
+    font-size: 1.6rem;
   }
 }
 /*
@@ -1189,6 +1257,22 @@ $font-link-color-grey: #575757;
   .header-home-int .contenedor-slide .contenido p {
     text-align: start;
     font-size: 1.7rem;
+  }
+  /* UN PRODUCTO */
+  .section-unproducto .imagenes .imagen-pincipal {
+    height: 600px;
+    background-size: contain;
+  }
+  .section-unproducto .imagenes .imagen-thumbs .imagen-thumb {
+    height: 100px;
+    background-size: 50%;
+  }
+  .section-unproducto .texto {
+    padding: 0px 0px;
+  }
+  .section-unproducto .texto h1 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
