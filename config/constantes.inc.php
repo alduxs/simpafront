@@ -11,8 +11,8 @@ if ($host == "localhost" || $host == "192.168.100.16") {
 	$urladmin = "http://" . $host . "/simpafront/admin/"; // Admin Pagina Principal
 
 } else {
-	$urlweb = "https://" . $host."/"; // Pagina Principal
-	$urladmin = "https://" . $host . "/admin/"; // Admin Pagina Principal
+	$urlweb = "https://" . $host."/newweb/"; // Pagina Principal
+	$urladmin = "https://" . $host . "/newweb/admin/"; // Admin Pagina Principal
 
 };
 

@@ -1173,7 +1173,7 @@ $font-link-color-grey: #575757;
     font-size: 2rem;
   }
   .model4 {
-    background-size: auto 101%;
+    background-size: cover;
   }
   .model4 .contenido-texto h2 {
     font-size: 1.7rem;
