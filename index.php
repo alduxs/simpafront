@@ -32,6 +32,8 @@ include_once('config/constantes.inc.php');
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/css/styles.css" />
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/fontawsome/css/all.css" />
+    <!-- ANimacion -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         #myCarousel {
             --f-carousel-slide-height: 100%;
@@ -521,8 +523,7 @@ include_once('config/constantes.inc.php');
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.autoplay.umd.js"></script>
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/slide.js"></script>
-    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/animacion.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
 
