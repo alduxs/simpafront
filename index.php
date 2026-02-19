@@ -51,12 +51,12 @@ include_once('config/constantes.inc.php');
 
         <div class="contenedor-slide" id="contenedor-slide" style="background-image: url('assets/slides/slide04.jpg');background-repeat: no-repeat;background-position: center;">
             <div class="contenido">
-                <div class="isotipo">
+                <div class="isotipo trasicion opacity-0" id="isotipo">
                     <img src="assets/img/isotipo.png" alt="">
                 </div>
-                <h1>Somos la <span class="color-orange">evolución </span><br>en la historia del pan</h1>
-                <p>Con más de 50 años de prestigio en el mercado</p>
-                <p><a href="#" class="link-buton">Nuestra Empresa</a></p>
+                <h1 class="trasicion move-opacity-0" id="hunoslide">Somos la <span class="color-orange">evolución </span><br>en la historia del pan</h1>
+                <p id="parrafoslide" class="trasicion move-opacity-0">Con más de 50 años de prestigio en el mercado</p>
+                <p id="btnempresa" class="trasicion opacity-0"><a href="#" class="link-buton">Nuestra Empresa</a></p>
             </div>
 
 
@@ -521,7 +521,7 @@ include_once('config/constantes.inc.php');
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.autoplay.umd.js"></script>
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/slide.js"></script>
-
+    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/animacion.js"></script>
 
 
 </body>
