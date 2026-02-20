@@ -78,10 +78,10 @@ include_once('config/constantes.inc.php');
                     <div class="col-12 col-lg-10 offset-lg-1">
 
                         <div class="contenido shadow-box logo-gris">
-                            <div class="contenido-imagen" style="background-image: url('assets/img/batidora.jpg');">
+                            <div class="contenido-imagen" style="background-image: url('assets/img/batidora.jpg');" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000">
                                 <!--<img src="assets/img/batidora.jpg" alt="" class="img-fluid">-->
                             </div>
-                            <div class="contenido-texto">
+                            <div class="contenido-texto" data-aos="fade-in" data-aos-delay="50" data-aos-duration="1000">
                                 <h2>Garantizamos productos de alta calidad, gran robustez y productividad</h2>
                                 <p>Disponemos de un espacio exclusivo para que nuestros representantes puedan probar equipos industriales SIMPA en condiciones reales de trabajo y garantizar un óptimo rendimiento y la calidad buscada en el producto fina</p>
                             </div>
@@ -107,7 +107,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
-                        <div class="contenido-texto">
+                        <div class="contenido-texto"  data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>Panificación</h2>
                             <p>Ofrecemos una amplia gama de equipos diseñados y fabricados para satisfacer tanto la demanda del consumidor final como la de nuestros clientes fabricantes.</p>
                             <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
@@ -135,7 +135,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
-                        <div class="contenido-texto">
+                        <div class="contenido-texto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>LAMINADOS</h2>
                             <p>Nuestros equipos de última generación aseguran calidad en cantidad para medianas y grandes producciones.</p>
                             <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
@@ -162,7 +162,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
-                        <div class="contenido-texto">
+                        <div class="contenido-texto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>PASTELERÍA</h2>
                             <p>Contamos con gran variedad de modelos y accesorios profesionales a la altura de los estándares exigentes de la pastelería.</p>
                             <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
@@ -188,7 +188,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
-                        <div class="contenido-texto">
+                        <div class="contenido-texto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>MASAS Y PRECOCIDOS</h2>
                             <p>Brindamos calidad y durabilidad en equipos para optimizar grandes producciones.</p>
                             <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
@@ -520,10 +520,15 @@ include_once('config/constantes.inc.php');
 
     <!-- Main -->
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/main.js"></script>
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.autoplay.umd.js"></script>
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/slide.js"></script>
+-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

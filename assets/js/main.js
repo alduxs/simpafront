@@ -260,10 +260,11 @@ bloqueServicio.forEach((bloque) => {
     this.classList.toggle("backcolor");
   });
 });
-
+/*
 btMasInfo.addEventListener("click", function () {
   
   document.getElementById("par3").classList.remove("phide");
   document.getElementById("par4").classList.remove("phide");
   
 });
+*/
