@@ -215,7 +215,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
-                        <div class="card shadow-box separacion-2-columnas border-color-secondary" style="border-radius: 0;">
+                        <div class="card shadow-box separacion-2-columnas border-color-secondary" style="border-radius: 0;" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">
                             <img src="assets/img/preventa.jpg" class="card-img-top" style="border-radius: 0;">
                             <div class="card-body">
                                 <h5 class="card-title">PREVENTA</h5>
@@ -226,7 +226,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5">
 
-                        <div class="card shadow-box border-color-secondary" style="border-radius: 0;">
+                        <div class="card shadow-box border-color-secondary" style="border-radius: 0;" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                             <img src="assets/img/postventa.jpg" class="card-img-top" style="border-radius: 0;">
                             <div class="card-body">
                                 <h5 class="card-title">POSVENTA</h5>
@@ -246,7 +246,7 @@ include_once('config/constantes.inc.php');
             <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat; background-size: cover;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-10 offset-lg-1">
+                        <div class="col-12 col-lg-10 offset-lg-1"  data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>LABORATORIO</h2>
                             <p>Disponemos de un <strong>espacio</strong> exclusivo para que nuestros representantes puedan probar equipos industriales <strong>SIMPA</strong> en condiciones reales de trabajo y garantizar un óptimo rendimiento y la calidad buscada en el producto fina</p>
                         </div>
@@ -257,7 +257,7 @@ include_once('config/constantes.inc.php');
             <div class="contenedor-b">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-10 offset-lg-1">
+                        <div class="col-12 col-lg-10 offset-lg-1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
                             <p>Aquí podrás:</p>
                             <ul class="ultilde">
                                 <li><img src="assets/img/tilde.png" alt="Icono">Testear amasadoras, batidoras, hornos y más, con tus propias recetas o con las que te sugerimos.</li>
@@ -283,7 +283,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-lg-8 offset-lg-1">
 
-                        <div class="contenido-texto">
+                        <div class="contenido-texto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>¿Querés ampliar tu negocio con una línea de equipos industriales de alta calidad y gran demanda?</h2>
                             <p>En SIMPA te ofrecemos la oportunidad de convertirte en distribuidor oficial y sumar a tu cartera productos que combinan innovación, rentabilidad y respaldo técnico garantizado.</p>
                             <p>Al ser parte de nuestra red vas a acceder a:</p>
@@ -294,7 +294,7 @@ include_once('config/constantes.inc.php');
                             </ul>
                             <p>Buscamos aliados estratégicos con visión de crecimiento y compromiso para expandir nuestra presencia en todo el país.</p>
                             <p><strong>Completá el formulario y comenzá hoy mismo a distribuir con nosotros</strong></p>
-                            <p><a href="#" class="link-buton">Formulario</a></p>
+                            <p data-aos="fade" data-aos-delay="500" data-aos-duration="500"><a href="#" class="link-buton">Formulario</a></p>
                         </div>
 
                     </div>
@@ -315,7 +315,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 col-md-6 col-lg-7 offset-lg-1 separacion-2-columnas">
+                    <div class="col-12 col-md-6 col-lg-7 offset-lg-1 separacion-2-columnas" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
 
                         <h2>SERVICIO DE IMPORTACIÓN</h2>
                         <p>Ofrecemos a nuestros distribuidores un <strong>servicio especializado de logística</strong>, pensado para aquellas empresas que necesitan <strong>equipos específicos</strong> que no se encuentran fácilmente en el mercado local.</p>
@@ -329,7 +329,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <img src="assets/img/que-es-mercancia-aduana.jpg" alt="" class="img-fluid shadow-box border-color-secondary rounded30">
 
                     </div>
@@ -346,7 +346,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 col-lg-10 offset-lg-1">
+                    <div class="col-12 col-lg-10 offset-lg-1" data-aos="fade-right" data-aos-delay="10" data-aos-duration="500">
 
                         <h2>NUESTROS PRODUCTOS</h2>
                         <p style="margin-bottom: 30px;">Amplia gama de equipo diseñados para ajustarse a las necesidades de cada negocio y optimizar al máximo la producción.</p>
@@ -357,7 +357,7 @@ include_once('config/constantes.inc.php');
                     <div class="col-12 col-lg-10 offset-lg-1">
                         <div class="row">
 
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-12 col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="100" data-aos-duration="500">
                                 <h3>AMASADORAS</h3>
                                 <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra1.png" class="card-img-top" style="border-radius: 0;">
@@ -368,7 +368,7 @@ include_once('config/constantes.inc.php');
 
                             </div>
 
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-12 col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="600" data-aos-duration="500">
                                 <h3>BATIDORAS</h3>
                                 <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra2.png" class="card-img-top" style="border-radius: 0;">
@@ -379,7 +379,7 @@ include_once('config/constantes.inc.php');
 
                             </div>
 
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-12 col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="1100" data-aos-duration="500">
                                 <h3>MÁQUINAS</h3>
                                 <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra3.png" class="card-img-top" style="border-radius: 0;">
@@ -390,7 +390,7 @@ include_once('config/constantes.inc.php');
 
                             </div>
 
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="col-12 col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="1700" data-aos-duration="500">
                                 <h3>HORNOS</h3>
                                 <div class="card shadow-box separacion-2-columnas" style="border-radius: 0;">
                                     <img src="assets/productos/small/maquina-muestra4.png" class="card-img-top" style="border-radius: 0;">
@@ -418,7 +418,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
 
                         <div class="contenido-texto">
                             <h2>LA EMPRESA</h2>
@@ -433,7 +433,7 @@ include_once('config/constantes.inc.php');
 
                     </div>
 
-                    <civ class="col-12 col-md-4 col-lg-4">
+                    <civ class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div id="map"></div>
                     </civ>
 
@@ -451,7 +451,7 @@ include_once('config/constantes.inc.php');
 
                 <div class="row">
 
-                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                         <div class="contenido-texto">
                             <h2>CONTACTO</h2>
                             <form action="">
@@ -493,7 +493,7 @@ include_once('config/constantes.inc.php');
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-4">
+                    <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
                         <div id="map2"></div>
                     </div>
 
