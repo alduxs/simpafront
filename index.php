@@ -520,11 +520,10 @@ include_once('config/constantes.inc.php');
 
     <!-- Main -->
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/main.js"></script>
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.autoplay.umd.js"></script>
-    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/slide.js"></script>
--->
+    
+    <!-- Main -->
+    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/animacion.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
