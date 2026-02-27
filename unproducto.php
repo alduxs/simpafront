@@ -64,16 +64,20 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                         <div class="imagenes">
-                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-01.png');">
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-01.png');" id="imagen-principal-1"></div>
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-02.png'); display:none;" id="imagen-principal-2"></div>
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-03.png'); display:none;" id="imagen-principal-3"></div>
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-04.png'); display:none;" id="imagen-principal-4"></div>
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-05.png'); display:none;" id="imagen-principal-5"></div>
+                            <div class="imagen-pincipal" style="background-image: url('assets/productos/big/prod-test-06.png'); display:none;" id="imagen-principal-6"></div>
 
-                            </div>
                             <div class="imagen-thumbs">
-                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-01.png');"></div>
-                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-02.png');"></div>
-                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-03.png');"></div>
-                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-04.png');"></div>
-                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-05.png');"></div>
-                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-06.png');"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-01.png');" id="thumb-1"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-02.png');" id="thumb-2"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-03.png');" id="thumb-3"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-04.png');" id="thumb-4"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-05.png');" id="thumb-5"></div>
+                                <div class="imagen-thumb" style="background-image: url('assets/productos/small/prod-test-06.png');" id="thumb-6"></div>
                             </div>
                         </div>
 
@@ -180,11 +184,13 @@ include_once('config/constantes.inc.php');
 
     <!-- BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- Google maps -->
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8_03r9LkKX7DqnHDYfv8lbyvWH7gadwM&callback=initMap"></script>
+
 
     <!-- Main -->
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/main.js"></script>
+
+    <!-- Imagenes  -->
+    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/unproducto.js"></script>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
