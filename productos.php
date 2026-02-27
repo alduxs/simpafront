@@ -26,12 +26,12 @@ include_once('config/constantes.inc.php');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.css" />
-
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/css/styles.css" />
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/fontawsome/css/all.css" />
+    <!-- Animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         #myCarousel {
             --f-carousel-slide-height: 100%;
@@ -63,7 +63,7 @@ include_once('config/constantes.inc.php');
                     <div class="col-12 col-lg-10 offset-lg-1">
 
                         <!-- AMASADORAS -->
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
 
                             <div class="col-12">
                                 <h2>AMASADORAS</h2>
@@ -110,7 +110,7 @@ include_once('config/constantes.inc.php');
                         </div>
 
                         <!-- BATIDORAS -->
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
 
                             <div class="col-12">
                                 <h2>BATIDORAS</h2>
@@ -163,7 +163,7 @@ include_once('config/constantes.inc.php');
                         </div>
 
                         <!-- MAQUINAS -->
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
 
                             <div class="col-12">
                                 <h2>MÁQUINAS</h2>
@@ -216,7 +216,7 @@ include_once('config/constantes.inc.php');
                         </div>
 
                         <!-- HORNOS -->
-                        <div class="row">
+                        <div class="row" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
 
                             <div class="col-12">
                                 <h2>HORNOS</h2>
@@ -288,17 +288,11 @@ include_once('config/constantes.inc.php');
 
     <!-- BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- Google maps -->
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8_03r9LkKX7DqnHDYfv8lbyvWH7gadwM&callback=initMap"></script>
 
-
-    <!-- Main -->
-    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.autoplay.umd.js"></script>
-    <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/slide.js"></script>
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

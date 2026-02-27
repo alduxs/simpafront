@@ -32,8 +32,8 @@ include_once('config/constantes.inc.php');
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/css/styles.css" />
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="<?php echo _CONST_DOMINIO_ ?>assets/fontawsome/css/all.css" />
-    <!-- ANimacion -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         #myCarousel {
             --f-carousel-slide-height: 100%;
@@ -107,7 +107,7 @@ include_once('config/constantes.inc.php');
 
                     <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 
-                        <div class="contenido-texto"  data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                        <div class="contenido-texto" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>Panificación</h2>
                             <p>Ofrecemos una amplia gama de equipos diseñados y fabricados para satisfacer tanto la demanda del consumidor final como la de nuestros clientes fabricantes.</p>
                             <p><a href="#" class="link-buton">Nuestros Equipos</a></p>
@@ -246,7 +246,7 @@ include_once('config/constantes.inc.php');
             <div class="contenedor-a" style="background-image: url('assets/img/pan.jpg');background-repeat: no-repeat; background-size: cover;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-10 offset-lg-1"  data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                        <div class="col-12 col-lg-10 offset-lg-1" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
                             <h2>LABORATORIO</h2>
                             <p>Disponemos de un <strong>espacio</strong> exclusivo para que nuestros representantes puedan probar equipos industriales <strong>SIMPA</strong> en condiciones reales de trabajo y garantizar un óptimo rendimiento y la calidad buscada en el producto fina</p>
                         </div>
@@ -520,7 +520,7 @@ include_once('config/constantes.inc.php');
 
     <!-- Main -->
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/main.js"></script>
-    
+
     <!-- Main -->
     <script src="<?php echo _CONST_DOMINIO_ ?>assets/js/animacion.js"></script>
 
